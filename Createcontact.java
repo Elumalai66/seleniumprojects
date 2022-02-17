@@ -23,21 +23,21 @@ public class Createcontact {
 		driver.findElement(By.partialLinkText("SFA")).click();
 		driver.findElement(By.linkText("Contacts")).click();
 		driver.findElement(By.xpath("(//ul[@class='shortcuts']/li)[2]/a")).click();
-		driver.findElement(By.id("firstNameField")).sendKeys("Kavinraj");
-		driver.findElement(By.id("lastNameField")).sendKeys("S");
-		driver.findElement(By.id("createContactForm_firstNameLocal")).sendKeys("Kavinraj");
-		driver.findElement(By.id("createContactForm_lastNameLocal")).sendKeys("S");
+		driver.findElement(By.id("firstNameField")).sendKeys("Elumalai");
+		driver.findElement(By.id("lastNameField")).sendKeys("N");
+		driver.findElement(By.id("createContactForm_firstNameLocal")).sendKeys("Elumalai");
+		driver.findElement(By.id("createContactForm_lastNameLocal")).sendKeys("N");
 		
 		driver.findElement(By.name("departmentName")).sendKeys("Testing");
 		driver.findElement(By.id("createContactForm_description")).sendKeys("I am a Software Tester");
 		driver.findElement(By.name("primaryPhoneCountryCode")).clear();
 		driver.findElement(By.name("primaryPhoneCountryCode")).sendKeys("91");
-		driver.findElement(By.name("primaryPhoneNumber")).sendKeys("9080829503");
-		driver.findElement(By.name("primaryEmail")).sendKeys("kavinraj89444@gmail.com");
-		driver.findElement(By.name("generalToName")).sendKeys("kavinraj");
-		driver.findElement(By.name("generalAddress1")).sendKeys("Tiruchengode");
-		driver.findElement(By.name("generalAddress2")).sendKeys("Thokkavadi");
-		driver.findElement(By.name("generalCity")).sendKeys("Namakkal");
+		driver.findElement(By.name("primaryPhoneNumber")).sendKeys("9629189345");
+		driver.findElement(By.name("primaryEmail")).sendKeys("elumalairaina30061999@gmail.com");
+		driver.findElement(By.name("generalToName")).sendKeys("elumalai");
+		driver.findElement(By.name("generalAddress1")).sendKeys("thirukalukundram");
+		driver.findElement(By.name("generalAddress2")).sendKeys("kalpakam");
+		driver.findElement(By.name("generalCity")).sendKeys("chengalpattu");
 		
 		WebElement dropDown2 = driver.findElement(By.name("generalCountryGeoId"));
 		Select country=new Select(dropDown2);
@@ -52,7 +52,7 @@ public class Createcontact {
 		
 		driver.findElement(By.linkText("Edit")).click();
 		
-		driver.findElement(By.name("birthDate")).sendKeys("10/20/99");
+		driver.findElement(By.name("birthDate")).sendKeys("30/06/99");
 		
 		WebElement dropDown1 = driver.findElement(By.name("preferredCurrencyUomId"));
 		Select currency=new Select(dropDown1);
