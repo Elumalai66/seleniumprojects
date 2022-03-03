@@ -1,0 +1,72 @@
+1.Explain about the main method in java?	
+	In java main method is used for execution of the program. Without the main method the program will not be execute, it shows an run time error.
+
+
+2.What are the different  Control flow Statements available in java?
+	There are 8 Different control flow statements are:
+	*if statement
+	*switch statement
+	*for loop
+	*while loop
+	*do while loop
+	*foreach loop
+	*break statement
+	*continue statement
+
+
+3.What is the Difference betweeen break and continue statements?
+	Break Statement:
+		Break statement is used to exits the whole loop.
+ 	Continue Statement:
+		Continue statement is used to exits the current iteration of the loop.
+
+
+4.What is an Array? How will you declare an array in java?
+	Array is a container to store multiple data of same data type.
+  syntax:
+	 int[] a={1,2,3,4,5};
+	 int[] a=new int[10];
+
+
+5.When will you get ArrayIndexOutOfBoundsException?
+	When try to access greater or lesser than the length of the index it shows ArrayIndexOutOfBoundsException.
+
+
+6.Define the Syntax to create an object for a class.
+	 ClassName objectName=new ConstructorName();
+	
+	i.) What are the naming conventions to be followed while creating a class, 
+		First letter begin with Upper-case only and no empty spaces in a class name.
+
+	ii.) method and a variable.Explain with examoles
+		 Method represents the action and verificatio of a program.
+		ex.)	public void add(){
+			int a=5,b=10;
+			System.out.println(a+b);
+		
+		Variable represents the information or data of the defined data type.
+		ex.)  int a=5;
+	
+
+7.What is Variable?How will you declare a variables in java?
+	Variable is a conainer to store a value of the defined data type.
+  syntax:
+	int a;
+	int b=5;
+
+
+8.What is String in java? Is it a Data Type?
+	String is a sequence of character.And String is a non-premitive datatype.
+
+
+9.What are the different ways to create the String Object in java?
+	Two ways to create a String object in java,
+	*By String Literal => String text="bobby";
+	*By new keyword  => String text=new String("bobby");
+
+
+10.What is the Difference between .Equals and ==? 
+	equals() :
+	It compares the two given strings and check if any character is not matched it returns false.
+   == :
+	It compares the index values in the string and arrays.
