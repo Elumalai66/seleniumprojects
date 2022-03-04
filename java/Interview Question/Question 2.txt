@@ -1,6 +1,6 @@
 1.Why is Java a platform independent language?
 
-Java is a independent language. Because Java compiler can convert source into byte code, which is the intermediate language. Byte code can be execute any of the platform.
+Java is a platform independent language Because it does not depend on any type of platform .Java compiler can convert source into byte code, which is the intermediate language. Byte code can be execute any of the platform.
 
 
 2.What do you understand by an instance variable and a local variable?
