@@ -19,7 +19,7 @@ ANS   : * Code Reusability
         
 4. example for selenium ? 
 
-ANS   : Selenium is a open source tool for automation testing.
+ANS   : Selenium is a open source tool for automation testing.It provides a single interface that lets you write scripts in programming language like Ruby,java,PHP etc.
         ex:   Child Class           Parent Class
                    |                    |
             * ChromeDriver extends ChromiumDriver
