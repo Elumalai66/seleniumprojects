@@ -1,6 +1,6 @@
 1. What is inheritance?
 
-ANS   : Inheritance in Java is a concept that acquires the properties from one class to other classes. 
+ANS   : Inheritance is a concept that acquires the properties from one class to other classes. 
         In Java, a class can inherit attributes and methods from another class.
         The class that inherits the properties is known as the sub-class or the child class.
         
