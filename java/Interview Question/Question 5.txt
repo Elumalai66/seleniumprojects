@@ -48,10 +48,14 @@
 
    Multiple Inheritance:
               -> One class Inherit more than one interface or class in a same class is called multiple inheritance.
+              
+              chromedriver extends chromiumdriver
 
             Multi-Level inheritance:
               ->  One base class is derived from other class, The derivered class is a base class to inherit some other class is called as multi level inheritance.
               ->  It can use in a class level inheritance in java.
+              
+              
 
 
    6.Is multiple inheritance possible in java?
