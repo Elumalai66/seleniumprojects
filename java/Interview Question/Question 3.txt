@@ -16,9 +16,9 @@
 
 3.What is the Difference betweeen break and continue statements?
 	Break Statement:
-		Break statement is used to exits the whole loop.
+		it stop the iteration and come out of the loop. 
  	Continue Statement:
-		Continue statement is used to exits the current iteration of the loop.
+		stop the current iteration and continue the with next iteration.
 
 
 4.What is an Array? How will you declare an array in java?
