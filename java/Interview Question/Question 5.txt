@@ -42,7 +42,7 @@
                     }
                     public abstract void department();
                    }
-
+          ex: by.xpath,by.id by is a abstract class.
 
    5.Difference between multiple inheritance and multilevel inheritance?
 
