@@ -33,7 +33,7 @@
 
 
    4.what is abstarct class and example?
-        Abstract class is a restricted class that cannot be create a object. To access the abstract class, it must be inherited from other class.
+        Abstract class is a restricted class that cannot be create a object. It has implemented and unimplemeted methods , it must be inherited from other class.
               Ex.)
                   public abstract class CollegeName{
                     public void name()
@@ -42,7 +42,8 @@
                     }
                     public abstract void department();
                    }
-          ex: by.xpath,by.id by is a abstract class.
+          ex in selenium : by.xpath,by.id by is a abstract class.
+          ex in java     : ArrayList
 
    5.Difference between multiple inheritance and multilevel inheritance?
 
