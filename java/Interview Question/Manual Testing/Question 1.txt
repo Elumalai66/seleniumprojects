@@ -1,0 +1,46 @@
+1.Difference between waterfall methodology and agile methodology?
+     Waterfall methodology: phases will be executed in one by one.
+                           It is also called as linear seuential.
+     Agile Methodology: Agile is one of the Software development methodology. 
+                        All the  phases will be executed at same time.   
+
+2.What are the phases of SDLC?
+     1.Requirement anaysis
+     2.Architect(design)    
+     3.Developer(implementation)
+     4.Tester(Testing)
+     5.Devops(deployment)
+     6.Maintanence
+
+3.What are the core values in agile?
+     
+     1.Individuals and Interactions over processes and tools.
+     2.Working Software over comprehensive documentation.
+     3.Customer Collaboration over contract negotiation.
+     4.Rsponding to Change over following a plan.  
+
+4.What are the scrum ceremonies / meetings?
+    Scrum is one of the framework in agile.
+       1.Story Groooming 
+       2.Sprint Planning
+       3.Daily Standup
+       4.Sprint Review
+       5.Retrospective
+
+ 5.What is the use of Retrospective meeting?
+       *It is facilitated by scrum Master.
+       *Analyze team performance.
+
+
+6.What are the different roles in scrum?
+            1.Dev team     -Responsible for implementation.
+            2.Product owner-Responsible for to get optimal business value from Dev team.
+            3.Scrum master -Process coach,problem solver,protector.
+
+7.Difference between product backlog and sprint backlog?
+          
+Product Backlog: product backlog is prioritized list of stories.
+                 Entire list of prioritized stories that need to completed for the product development.
+
+Sprint Backlog: List of stories completed in the sprint.
+
