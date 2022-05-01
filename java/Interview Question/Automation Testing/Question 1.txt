@@ -29,14 +29,3 @@ ANS   : Selenium is a open source tool for automation testing.
             * Interface SearchContext
             
             
-5. What is methodOverloading with example?
-
-ANS   : In a class Methods have same name with differ in parameters is called method overloading. And method overloading is a compile time polymorphism.
-        ex:   System.out.println(x);  =>here we declare multiple datatype for the variable x so it is realtime example for method overloading.
-        
-        
-6.  What is methodOverriding with example?
-
-ANS   : In a package more number of classes with same method name is override from the parent class is known as Method Overriding.
-        And this is called as Runtime polymorphism.
-        ex:   SetFileDetector();  =>This is used to set the file path for manually download the driver.
