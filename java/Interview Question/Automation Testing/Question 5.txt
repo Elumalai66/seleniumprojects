@@ -16,11 +16,13 @@
                   -> It has same class name, same method name but different arguments are passed is called Method overloading.
                   -> It is a Compile Time polymorphism.
                   -> And this is Static polymorphism.
+                   ex:   System.out.println(x);  =>here we declare multiple datatype for the variable x so it is realtime example for method overloading.
 
             * Method Overriding
                   -> It has different class name and same method name from the existing class is called as method overriding.
                   -> It is a Run Time Polymorphism.
                   -> And this is Dynamic polymorphism.
+                   ex:    SetFileDetector();  =>This is used to set the file path for manually download the driver.
 
 
    3.what is interface and example in selenium,java?
