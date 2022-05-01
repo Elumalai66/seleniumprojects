@@ -1,0 +1,96 @@
+1)What is Agile Testing?
+
+Answer: Agile Testing is a practice that a QA follows in a dynamic environment where testing requirements keep changing according to customer needs. It is done parallel to the development activity where the testing team receives frequent small codes from the development team for testing.
+
+2) Define the roles in Scrum?
+Answer:
+There are mainly three roles that a Scrum team have:
+1.	Project Owner has the responsibility of managing the product backlog. Works with end-users and customers and provides proper requirements to the team to build the proper product.
+2.	Scrum Master works with the scrum team to make sure each sprint gets completed on time. Scrum master ensures proper workflow for the team.
+3.	Scrum Team: Each member of the team should be self-organized, dedicated and responsible for the high quality of the work.
+
+
+3) What is Product Backlog & Sprint Backlog?
+Answer: 
+The Product backlog is maintained by the project owner which contains every feature and requirement of the product.
+Sprint backlog can be treated as the subset of product backlog which contains features and requirements related to that particular sprint only.
+
+4) Explain Velocity in Agile.
+Answer: Velocity is a metric that is calculated by the addition of all efforts estimates associated with user stories completed in an iteration. It predicts how much work Agile can complete in a sprint and how much time will it require to complete a project.
+
+5) Explain the difference between a traditional Waterfall model and Agile testing?
+Answer: Agile testing is done parallel to the development activity whereas a traditional waterfall model testing is done at the end of the development.
+As done in parallel, agile testing is done on small features whereas, in a waterfall model, testing is performed on the whole application.
+6) Explain the Iterative and Incremental Development in Agile?
+Answer:
+Iterative Development: Software is developed and delivered to the customer and based on the feedback again developed in cycles or releases and sprints. Example: Release 1 software is developed in 5 sprints and delivered to the customer. Now, the customer wants some changes, then the development team plan for 2nd release which can be completed in some sprints and so on.
+Incremental Development: Software is developed in parts or increments. In each increment, a portion of the complete requirement is delivered.
+
+7) What qualities should a good Agile tester have?
+Answer:
+•	He should be able to understand the requirements quickly.
+•	He should know Agile concepts and principals.
+•	As requirements keep changing, he should understand the risk involved in it.
+•	The agile tester should be able to prioritize the work based on the requirements.
+•	Communication is a must for an Agile tester as it requires a lot of communication with developers and business associates.
+
+8) What is the difference between Epic, User stories & Tasks
+
+User Stories: It defines the actual business requirement. Generally created by the business owner.
+Task: To accomplish the business requirements development team create tasks.
+Epic: A group of related user stories is called an Epic.
+
+9) Name some Agile quality strategies.
+Answer: Some Agile quality strategies are-
+1.	Re-factoring
+2.	Small feedback cycles
+3.	Dynamic code analysis
+4.	Iteration
+
+10) What is the importance of daily stand up meetings?
+Answer: Daily stand up meeting is essential for any team in which team discuss,
+1.	How much work has been completed?
+2.	What are the plans to resolve technical issues?
+3.	What steps need to done to complete the projects etc?
+
+11) How the velocity of the sprint is measured?
+Answer: If capacity is measured as a percentage of a 40 hours weeks then, completed story points * team capacity
+If capacity is measured in man-hours then Completed story points/team capacity
+
+12) What are the agile core values?
+ Answer: There are 4 core values of agile:
+The Agile Manifesto consists of four key values:
+	Individuals and interactions over processes and tools.
+	Working software over comprehensive documentation.
+	Customer collaboration over contract negotiation.
+	Responding to change over following a plan.
+
+  13) Disadvantages of agile model:
+	Lack of documentation.
+	Last minute changes
+	Frequent changes in the code
+	Tool selection is difficult
+	Limited test coverage
+	Working software over comprehensive documentation.
+14)Advantages of agile model over waterfall model 
+                        (Or)
+Why we are using agile over waterfall model?
+These factors influence us to go to agile model
+	Logical, but assumes correct requirements are known at start.
+	Based on environment, clients requirements may change.
+	Change is risky and costly,so new needs often cant be met.
+	Testing is done towards the end of the project,where defects are more expensive to fix.
+	 No working software until late in process
+
+15)Types of scrum meetings:
+There are 6 types of Scrum meetings which occur at a particular time during a Sprint cycle and each particular type serves a distinct purpose.
+1.	Sprint Planning Meeting
+2.	Daily Scrum Meeting
+3.	Sprint Review Meeting
+4.	Sprint Retrospective Meeting
+5.	Backlog Refinement Meeting(Story grooming meeting)
+
+
+
+
+	I
