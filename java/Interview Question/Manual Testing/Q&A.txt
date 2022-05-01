@@ -1,0 +1,45 @@
+Test Cases:
+It is a set of conditions under which tester determines whether an application or software is
+working correctly or not
+
+Test Scenario:
+It gives the idea of what(Functionality) we have to test or testable part of an application
+
+
+Test Suite:
+
+It is the collection of test cases
+
+Test bed:
+
+It is the environment configured for testing is called test bed.
+
+It consists of h/w,s/w or n/w configurations
+
+Verification:
+
+Are we building the product Right?
+process of examining/reviewing the product
+It is a QA activity
+It is performed by QA team or by developer
+It is a static process done at compilation time
+Activities involves in this are inspection,walkthrough,reviews
+
+Validation:
+
+Are we building the  Right product?
+process of executing the product and examining how it behaves
+It is a QC activity
+It is performed by QC team or by tester
+It is a dynamic process done at run time
+Activities involves in this is testing the application
+
+
+Positve testing
+
+It determines what the system supossed to do
+It helps to check whether the application meets the specified req's are not
+
+Negative testing
+It determines what the system not supposed to do
+IT helps to identify the defects in the s/w
