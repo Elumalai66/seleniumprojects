@@ -1,0 +1,120 @@
+1) What Is SDLC?
+SDLC is an abbreviation of Software Development Life Cycle.
+SDLC is a series of steps that offers a defined model for the development and lifecycle management of an application.
+
+2) Name five Models used in SDLC
+•	Waterfall model
+•	V model
+•	Agile model
+•	Iterative model
+•	Spiral model
+
+3) Explain Phases of the waterfall model
+The five-main phase of waterfall model are:
+•	Requirements gathering
+•	Design
+•	Development
+•	Testing
+•	Implementation & Maintenance
+
+4) States the importance of Design phase?
+The requirements is specified in the form of a document. 
+It is then converted into a logical structure which needs to be implemented in a specific programming language. 
+The design phase is also helpful for specifying hardware & system requirements.
+ It also allows defining complete system architecture. 
+The output is designed to document that acts as an input for all the subsequent SDLC phases.
+
+
+5) What are the tasks performed in Coding phase?
+In the coding phase, the design document is converted into an executable programming language. The output of the coding stage is the source code which can act as input for testing and maintenance phase.
+ 
+6) What is feasibility study?
+Feasibility allows assessing how viable software project development will be for any organization. The software analyst does the complete study to understand the operational, economic, and technical feasibility of any project.
+
+7) Advantages of agile model over waterfall model 
+                        (Or)
+Why we are using agile over waterfall model?
+These factors influence us to go to agile model
+	Logical, but assumes correct requirements are known at start.
+	Based on environment, client’s requirements may change.
+	Change is risky and costly, so new needs often can’t be met.
+	Testing is done towards the end of the project, where defects are more expensive to fix.
+	 No working software until late in process
+
+8) Give some benefits of using V model?
+•	Simple and easy to use.
+•	Each phase has specific
+•	V model is more successful because of the early development of test plans. This reduces the cost of bug fixes
+•	Works most effective with small projects where requirements are small
+
+9) What is the ‘scope’ of a project?
+The scope of the project is nothing but, the goals, objectives, and expectations of the project.
+ Software scope is a well-defined boundary, which includes all the process which are performed to develop and deliver the software product. 
+The software scope consists of all functionalities and artifacts to be delivered to the software system. 
+The software scope also helps to identifies what the system will do and what it will not do.
+
+10) According to you, when should users be trained on a new system?
+During the Implementation phase
+
+11) Name the phase where the performance of the new system monitored?
+During the Evolution and Maintenance phase, the system is continuously monitored.
+
+12)  What is a computer-based information system?
+It is a system in which computers perform some procedures.
+
+13) Explain Low Level OR Detailed Design concerning SDLC
+In Low-Level Design, High-Level Design is broken down into modules and programs. 
+Logic design is developed for every program, and it will be documented as program specifications.
+
+14) State the Difference Between SDLC And STLC
+SDLC involves the complete Verification and Validation of a Project. SDLC stage requires business requirement analysis, design, Development Process, Testing Process, and Maintenance.
+Whereas STLC involves only Validation.
+
+15) Who are the people involved in the phases of Waterfall Model
+The people involved in the waterfall model depend upon the structure of the organization. Here, are professionals who are generally involved
+•	Business analyst
+•	Technical Manager or Senior Developers
+•	Technical Lead or System Architect in Design Phase
+•	Developers in Coding phase.
+•	Testers in Testing Phase.
+•	Project Manager, and Maintenance Team in the Maintenance phase
+
+16) Explain the team Requirement Gathering concerning SDLC
+Requirement Gathering is an important SDLC phase. In this stage business requirements are gathered. The schedule and cost of the project also analysed in this phase.
+
+17) Briefly explain Testing Phase
+Different testing methodologies are practiced detecting the software bugs, which happen to take birth during the previous phases. Today, there are many types of testing tools, and methodologies are available. Few firs are also building their testing tools, which are custom made as per the need or their organizations.
+
+18) What are problems faced in the waterfall model?
+Some of the common problems face in waterfall model are
+•	Waterfall model is not ideal for complex projects where requirements are not clear
+•	It needs lots of time to complete every stage
+•	There are certain bugs which never rectified in this model
+
+19) What is the details study of the existing system is called?
+The detailed study of the existing system is called System analysis
+
+20) What is the main aim of prototyping aim?
+Prototyping offers mini-model of the proposed system
+
+21) In which step of SDLC project early termination could be done?
+In the SDLC process, project termination can be performed in the feasibility study phase.
+
+22) According to you which is most creative and challenging phase of system life cycle?
+The design is one of the most challenging phases of the SDLC lifecycle.
+
+23) Name the type of feasibility where the cost saving and additional profits will exceed the investment required.
+It is known as Economic Feasibility
+
+24) Can bug fixes also include software maintenance?
+Yes, bug fixes stage also includes software maintenance
+
+25) Cost of error correction is least in which stage of SDCL life cycle?
+Cost of error correction is very less at the early stage of requirement analysis.
+
+
+
+
+
+
+	I
