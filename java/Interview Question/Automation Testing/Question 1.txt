@@ -38,5 +38,10 @@ ANS   : In Java, array and ArrayList are the well-known data structures. An arra
         
    ArrayList :
           Arraylist is collection of similar datatypes .It follows index positions to store the value.It is a length is dynamic.we can change its size.
+             
+   LinkedList :
+          Java LinkedList class uses a doubly linked list to store the elements.
+          It provides a linked-list data structure.
+          It inherits the AbstractList class and implements List and Deque interfaces.
             
             
