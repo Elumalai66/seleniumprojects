@@ -28,4 +28,8 @@ ANS   : Selenium is a open source tool for automation testing.
             * WebDriver extends SearchContext
             * Interface SearchContext
             
+5.Difference between Array and ArrayList ?
+
+ANS   : In Java, array and ArrayList are the well-known data structures. An array is a basic functionality provided by Java, whereas ArrayList is a class of Java Collections framework. It belongs to java.util package.            
+            
             
