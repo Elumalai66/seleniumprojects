@@ -34,10 +34,18 @@ ANS   : In Java, array and ArrayList are the well-known data structures. An arra
    where as ArrayList is a class of Java Collections framework. It belongs to java.util package.   
    
    Array:
-       An array is a dynamically-created object. It serves as a container that holds the constant number of values of the same type. It has a contiguous memory location. Once an array is created, we cannot change its size.
+       An array is a dynamically-created object.
+       It serves as a container that holds the constant number of values of the same type.
+       It has a contiguous memory location. 
+       Once an array is created, 
+       we cannot change its size.
         
    ArrayList :
-          Arraylist is collection of similar datatypes .It follows index positions to store the value.It is a length is dynamic.we can change its size.
+          It is Rapper class.
+          Arraylist is collection of similar datatypes .
+          It follows index positions to store the value.
+          It is a length is dynamic.
+          we can change its size.
              
    LinkedList :
           Java LinkedList class uses a doubly linked list to store the elements.
