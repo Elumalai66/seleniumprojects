@@ -51,5 +51,20 @@ ANS   : In Java, array and ArrayList are the well-known data structures. An arra
           Java LinkedList class uses a doubly linked list to store the elements.
           It provides a linked-list data structure.
           It inherits the AbstractList class and implements List and Deque interfaces.
+          
+ 6. What is string in Java with example?
+
+          In Java, a string is a sequence of characters.
+          strings in Java are not primitive types (like int, char, etc). 
+          Instead, all strings are objects of a predefined class named String.
+          
+ 7. What is the difference between string and StringBuffer in Java?
+
+          String:
+          String is a sequence of characters. 
+          In java, objects of String are immutable which means a constant and cannot be changed once created.
+          
+          StringBuffer:
+          StringBuffer is a peer class of String that provides much of the functionality of strings.
             
             
