@@ -52,7 +52,7 @@
 	
 
 7.What is Variable?How will you declare a variables in java?
-	Variable is a conainer to store a value of the defined data type.
+	Variable is a container to store a value of the defined data type.
   syntax:
 	int a;
 	int b=5;
