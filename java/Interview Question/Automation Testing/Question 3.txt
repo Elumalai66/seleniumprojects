@@ -17,7 +17,10 @@
 3.What is the Difference betweeen break and continue statements?
 	Break Statement:
 		Break statement is used to exits the whole loop.
+		Stop the current iteration and come out of the loop.
+		
  	Continue Statement:
+	        Stop the current iteration and continue with the next iteration.
 		Continue statement is used to exits the current iteration of the loop.
 
 
