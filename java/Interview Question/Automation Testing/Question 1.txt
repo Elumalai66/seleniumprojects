@@ -42,8 +42,8 @@ ANS   : In Java, array and ArrayList are the well-known data structures. An arra
        we cannot change its size.
         
    ArrayList :
-          It is Rapper class.
           Arraylist is collection of similar datatypes .
+          It is Rapper class.
           It follows index positions to store the value.
           It is a length is dynamic.
           we can change its size.
