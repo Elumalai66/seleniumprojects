@@ -27,8 +27,8 @@
 
    3.what is interface and example in selenium,java?
 
-   Interface is used to achieve abstraction. In interface we can't create an object and instantiate variable.
-          In a interface we can use only public access modifier or default. And it have unimpleted methods only.
+        Interface is used to achieve abstraction. In interface we can't create an object and instantiate variable.
+        In a interface we can use only public access modifier or default. And it have unimpleted methods only.
           Ex.)
               Webdriver is an interface in selenium
               WebDriver driver=new WebDriver();
