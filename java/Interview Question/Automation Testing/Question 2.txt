@@ -6,7 +6,7 @@ Java is a platform independent language. Because Java compiler can convert sourc
 2.What do you understand by an instance variable and a local variable?
 
 Instance Variable : Instance variable is declared in a class and outside the method, It can invoke to any other method in a class.
-Local variable : Local variable is declared within the method, It can acces only in the particular given method.
+Local variable : Local variable is declared within the method, It can access only in the particular given method.
       
      
 3.Can we overload main method in Java
