@@ -38,5 +38,5 @@ The String objects are cached in the String pool, and it makes the String immuta
           
 7.What is the difference between concat() and concatenation  operator "+" ?
 
-Concat()   :It takes only one argument in a method to concatenation with other string.
+Concat()   : It takes only one argument in a method to concatenation with other string.
 + opreator : It can take more number of arguments to concatenate.
