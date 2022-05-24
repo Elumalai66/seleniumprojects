@@ -1,6 +1,10 @@
 1) What is Selenium? What are the different Selenium components? Explain about Selenium Webdriver.
-Selinium: Selenium is an open source tool that automates web browsers.It provides a single interface that lets you write test scripts in programming languages
+         Selenium is an open source tool that automates web browsers.It provides a single interface that lets you write test scripts in programming languages
          like Ruby,Java,NodeJS,PHP,Perl,Python,and C,among others.
+	 
+	 Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms.
+	 You can use multiple programming languages like Java, C#, Python etc to create Selenium Test Scripts. 
+	 Testing done using the Selenium testing tool is usually referred to as Selenium Testing.
 
 Different Selenium components: There are Four Selenium components 
                                -> Selenium IDE.
