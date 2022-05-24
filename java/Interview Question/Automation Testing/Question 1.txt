@@ -34,6 +34,7 @@ ANS   : In Java, array and ArrayList are the well-known data structures. An arra
    where as ArrayList is a class of Java Collections framework. It belongs to java.util package.   
    
    Array:
+       Array is a group of same data types.
        An array is a dynamically-created object.
        It serves as a container that holds the constant number of values of the same type.
        It has a contiguous memory location. 
