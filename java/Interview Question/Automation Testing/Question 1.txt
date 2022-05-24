@@ -61,11 +61,14 @@ ANS   : In Java, array and ArrayList are the well-known data structures. An arra
           
  7. What is the difference between string and StringBuffer in Java?
 
-          String:
+    String:
           String is a sequence of characters. 
           In java, objects of String are immutable which means a constant and cannot be changed once created.
           
-          StringBuffer:
+    StringBuffer:
           StringBuffer is a peer class of String that provides much of the functionality of strings.
+          
+          A string buffer is like a String, but can be modified. 
+          It contains some particular sequence of characters, but the length and content of the sequence can be changed through certain method calls.
             
             
