@@ -69,5 +69,10 @@ ANS   : In Java, array and ArrayList are the well-known data structures. An arra
          
           A string buffer is like a String, but can be modified. 
           It contains some particular sequence of characters, but the length and content of the sequence can be changed through certain method calls.
-            
+     
+    Manual Testing :
+               In manual testing , test cases are executed manually without any support feom tools or scripts.
+               
+    Automaion Testing :   
+               Automation testing  is using test cases are executed with the assistance of tools scripts and software.
             
