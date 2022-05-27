@@ -6,9 +6,10 @@ ANS   : Inheritance in Java is a concept that acquires the properties from one c
         
 2. What are the types of inheritance?
 
-ANS   : There are three types of inheritance in java: Single, Multilevel and Hierarchical.
+ANS   : There are three types of inheritance in java: Single, Multilevel and Multiple.
+       Single: Multilevel and Multiple.
 
-        Multiple and Hybrid inheritance is supported through interface only.
+        Multiple and Hybrid inheritance is supported through interface only.Hierarchical
         
 3. What are the advantages in inheritance?
 
@@ -19,7 +20,8 @@ ANS   : * Code Reusability
         
 4. example for selenium ? 
 
-ANS   : Selenium is a open source tool for automation testing.
+ANS   : Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an         internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
+
         ex:   Child Class           Parent Class
                    |                    |
             * ChromeDriver extends ChromiumDriver
