@@ -1,0 +1,7 @@
+1) What is SQL?
+
+SQL stands for the Structured Query Language. 
+It is the standard language used to maintain the relational database and perform many different data manipulation operations on the data.
+SQL was initially invented in 1970. It is a database language used for database creation, deletion, fetching and modifying rows, etc. 
+sometimes, it is pronounced as 'sequel.' We can also use it to handle organized data comprised of entities (variables) and relations between different entities of the data.
+
