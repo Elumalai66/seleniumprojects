@@ -3,5 +3,62 @@
 SQL stands for the Structured Query Language. 
 It is the standard language used to maintain the relational database and perform many different data manipulation operations on the data.
 SQL was initially invented in 1970. It is a database language used for database creation, deletion, fetching and modifying rows, etc. 
-sometimes, it is pronounced as 'sequel.' We can also use it to handle organized data comprised of entities (variables) and relations between different entities of the data.
+sometimes, it is pronounced as 'sequel.'
+We can also use it to handle organized data comprised of entities (variables) and relations between different entities of the data.
+
+2) When SQL appeared?
+
+SQL first appeared in 1974. 
+It is one of the most used languages for maintaining the relational database.
+In 1986, SQL became the standard of the American National Standards Institute (ANSI) and ISO (International Organization for Standardization) in 1987.
+
+3) What are the usages of SQL?
+
+SQL is responsible for maintaining the relational data and the data structures present in the database. Some of the common usages are given below:
+
+To execute queries against a database
+To retrieve data from a database
+To inserts records in a database
+To updates records in a database
+To delete records from a database
+To create new databases
+To create new tables in a database
+To create views in a database
+To perform complex operations on the database.
+
+4) Does SQL support programming language features?
+
+SQL refers to the Standard Query Language.
+Therefore, it is true that SQL is a language but does not actually support the programming language.
+It is a common language that doesn't have a loop, conditional statements, and logical operations.
+It cannot be used for anything other than data manipulation.
+It is a command language to perform database operations. 
+The primary purpose of SQL is to retrieve, manipulate, update, delete, and perform complex operations like joins on the data present in the database.
+
+5) What are the subsets of SQL?
+
+The following are the four significant subsets of the SQL:
+
+Data definition language (DDL): It defines the data structure that consists of commands like CREATE, ALTER, DROP, etc.
+Data manipulation language (DML): It is used to manipulate existing data in the database. The commands in this category are SELECT, UPDATE, INSERT, etc.
+Data control language (DCL): It controls access to the data stored in the database. The commands in this category include GRANT and REVOKE.
+Transaction Control Language (TCL): It is used to deal with the transaction operations in the database. The commands in this category are COMMIT, ROLLBACK, SET TRANSACTION, SAVEPOINT, etc.
+
+6) What is the purpose of DDL Language?
+
+DDL stands for Data definition language.
+It is the subset of a database that defines the data structure of the database when the database is created.
+For example,
+we can use the DDL commands to add, remove, or modify tables. 
+It consists of the following commands: CREATE, ALTER and DELETE database objects such as schema, tables, indexes, view, sequence, etc.
+
+Example
+
+CREATE TABLE Students  
+(  
+Roll_no INT,  
+Name VARCHAR(45),  
+Branch VARCHAR(30),  
+); 
+
 
