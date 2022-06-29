@@ -15,25 +15,25 @@
 
 
 3.What is the Difference betweeen break and continue statements?
-	Break Statement:
-		Break statement is used to exits the whole loop.
-		Stop the current iteration and come out of the loop.
+   
+   Break Statement:
+         Break statement is used to exits the whole loop.
+         Stop the current iteration and come out of the loop.
 		
- 	Continue Statement:
-	        Stop the current iteration and continue with the next iteration.
-		Continue statement is used to exits the current iteration of the loop.
+   Continue Statement:
+         Stop the current iteration and continue with the next iteration.
+         Continue statement is used to exits the current iteration of the loop.
 
 
-4.What is an Array? How will you declare an array in java?
-	Array is a container to store multiple data of same data type.
-  syntax:
-	 int[] a={1,2,3,4,5};
-	 int[] a=new int[10];
-
+4.Differance between implicitwait and explicitwait?
+     
+       Implicitwait:
+                 it directs the selenium webdriver to wait for a certain measure of time before throwing an exception a once this is set , webdriver will not for the element before the exception occurs.
+       explicitwait :
+                 it is used to tell the webdriver to wait for certain condition or maximum time exceeded before throwing "ElementNotVisibleException" exception.It is an intelligent kind of wait,but it can be applied only for specified element.
 
 5.When will you get ArrayIndexOutOfBoundsException?
 	When try to access greater or lesser than the length of the index it shows ArrayIndexOutOfBoundsException.
-
 
 6.Define the Syntax to create an object for a class.
 	 ClassName objectName=new ConstructorName();
