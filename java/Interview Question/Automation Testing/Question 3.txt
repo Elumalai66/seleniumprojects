@@ -31,9 +31,11 @@
                  it directs the selenium webdriver to wait for a certain measure of time before throwing an exception a once this is set , webdriver will not for the element before the exception occurs.
        explicitwait :
                  it is used to tell the webdriver to wait for certain condition or maximum time exceeded before throwing "ElementNotVisibleException" exception.It is an intelligent kind of wait,but it can be applied only for specified element.
+		 
 
 5.When will you get ArrayIndexOutOfBoundsException?
 	When try to access greater or lesser than the length of the index it shows ArrayIndexOutOfBoundsException.
+	
 
 6.Define the Syntax to create an object for a class.
 	 ClassName objectName=new ConstructorName();
@@ -42,7 +44,7 @@
 		First letter begin with Upper-case only and no empty spaces in a class name.
 
 	ii.) method and a variable.Explain with examoles
-		 Method represents the action and verificatio of a program.
+		 Method represents the action and verification of a program.
 		ex.)	public void add(){
 			int a=5,b=10;
 			System.out.println(a+b);
