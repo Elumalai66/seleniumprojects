@@ -1,0 +1,675 @@
+Day 1
+
+1.What is automation testing and benefits?
+
+• Test automation is a process that makes use of automation testing tools to execute prescripted tests on applications, then compares the test results to the expected behavior and 
+reports it to the testers.
+Benefits:
+• It executes tasks automatically.
+• Increases effectiveness, efficiency and coverage of the software testing.
+
+2.Why should Selenium be selected as a test tool?
+Selenium is an open source automation testing tool which is used to test web applications.
+• Selenium testing tool consists of different set of tools in it like Selenium WebDriver, 
+Selenium RC, Selenium IDE
+• which has different features.
+3.What is Selenium? What are the different Selenium components?
+• Selenium is a portable software testing framework for web application.
+• Selenium provides a playback tool for authorising tests without need to learn a test scripting 
+languages.
+Different selenium components:
+--------------------------------------
+• Selenium IDE
+• Selenium RC
+• Selenium Webdriver
+• Selenium Grid
+14.What is the use of WebDriver?
+• It is mainly used for providing the connection between the browser and local system.
+• It acts as a bridge.
+4.What is the difference between Selenium RC and WebDriver?
+Selenium Ide Selenium Rc webDriver
+No server Required to 
+execution of test
+It requires server to start the 
+execrution of test
+It requires no server to start 
+the execution
+Able to testing only in 
+FireFox
+Can be testing in majority of 
+browsers
+Can be testing in majority of 
+browsers.
+Cannot:Handle 
+navigation,dropdown,mouse 
+action
+Has only absolute path
+Cannot handle 
+navigation,dropdown,mouse 
+action
+Has only absolute path
+Can handle 
+navigation,dropdown,mouse 
+action
+Has both absolute and 
+relative path
+5.What is the latest version of Selenium jar file and how you will configure selenium jar file 
+with eclipse?
+Latest version:
+-----------------
+• 3.141.59
+• Alpha version of Selenium 4 released.
+• Selenium 4 is yet to get released officially.
+Configure jar file:
+---------------------
+• After including Selenium jar into our project,right click the jar and give "add to build path" 
+for configuration.
+6.Can Google Chrome supported by Selenium IDE?
+• No,Google Chrome is not be supported by Selenium IDE.It supports only mozilla 
+extentions.
+7.What are the different browsers supported by selenium?
+• Firefox browser
+• Chrome browser
+• Internet Explorer
+• safari browser
+• Opera browser 
+• msEdge browser
+8.What is the Classname for the below browsers?
+Browser Class
+1. Firefox browser FirefoxDriver
+2. Chrome browser ChromeDriver
+3. IE InternetExplorerDriver
+4. Safari browser SafariDriver
+5. Opera browser OperaDriver
+6.msEdge browser msEdgedriver
+9.What is a WebDriver ? Whether WebDriver is class or interface?
+• Webdriver is a web automation framework that allows you to execute your tests againts 
+different browser,not just firefox.
+• Webdriver also enables you to use a programming language in creating your test script.
+• Webdriver is a interface.
+10.What is the method name to launch the url?
+• get() method is used to lanuch the given url.
+11.What are the method names are available to get the title and url of the webpage?
+• getTitle()- used to get the title of the webpage.
+• getCurrentUrl()-used to get the current url of the webpage.
+12.What is the difference between close() and quit()?
+close():
+--------
+• It will close the current window only.
+quit():
+-------
+• It will close all the opened windows and browser will also be closed.
+13.What are the methods available in WebDriver?
+• close()
+• findElement()
+• findElements()
+• get()
+• getTitle()
+• getCurrentUrl()
+• manage()
+• quit()
+• switchTo()
+Day 2:
+1.What are the locators available in selenium?
+• id
+• classname
+• name
+• Xpath
+• CSSselector
+• linkText
+• partialLinkText
+• tagname
+2.Which locator is fastest in selenium?
+• id is the fastest locator in selenium.
+3.How will you find the locators in selenium? write a code for it?
+• We can find the locator by using findElement() and findElements() methods.
+Code
+-------
+driverrefname.findElement(By.locator("values");
+4,5.Difference between findElement and FindElements?
+findElement
+------------
+• It is used to find only one webElement.
+• If no element is found it throws NoSuchElementException.
+findElements
+---------------
+• It is used to find a list of webElements.
+• findElements will return an empty list when no elements found
+6.What is the return type of findElement and findElements?
+• findElement - WebElement
+• findElements - List<WebElement>
+7.In which class all the locator methods are available?
+*By is an abstract class in which all the locator methods are available.
+8.What is the method used to insert value in a textbox?
+• sendKeys() method is used to insert value into a textbox.
+9.Write a code for inserting value in textbox?
+• WebElementRefname.sendKeys("values to be inserted");
+10.When multiple WebElements has same Xpath,how we can find it uniquely?
+*When multiple WebElements has same Xpath,we can give index for that to uniquely locate a 
+WebElement.
+Index starts from 1 to n // ex 1 of 19 like that so here index starts from 1 only not zero
+*syntax: (xpath)[index]
+11.How will you click a button in webpage?
+*By using click() method we can click a button in webpage.
+12.Whether WebElement is a interface or class?
+*WebElement is an interface.
+Day 3
+What is mean by System.setProperty?
+• System is a class and setProperty is a method which accepts 2 arguments i.e key and path
+• Key represents in which browser we are going to test the application
+• path defines the location of driver executable file.
+• It is used to set the class and path location of driver.
+2.What is Xpath? Why we are going for Xpath?
+• Xpath is one of the locator available in Selenium.
+Reason for going to Xpath:
+---------------------------
+• For validating the locator.
+• When id,classname,name is not present,we go for Xpath.
+1,3.What are the Types of Xpath?
+• Absolute Xpath
+• Relative Xpath
+4.What is the difference between Absolute Xpath and Realtive Xpath?
+Absolute Xpath:
+---------------
+• It contains \
+• Here we find path from root element <html> to desired WebElement tagname
+Relative Xpath:
+---------------
+• It contains \\
+• Here we find the path from the desired WebElement's tagname only
+5.What are the difference between / and // ?
+\:
+• It means absolute Xpath
+• It is used to find path from root element <html> tagname to desired WebElement tagname
+\\:
+• *It means Relative Xpath \\
+• *Using this,we find the path from the desired WebElement's tagname only
+What is the difference between CSS selector and Xpath?
+Xpath:
+--------
+• Xpath syntax is complex compared to css selector
+• Using Xpath,we can validate the locators.
+• Xpath becomes inconsistent in some browsers
+• We can traverse both forward and backward direction
+CSS selector:
+---------------
+• CSS selector has simple syntax and it is faster than xpath.
+• CSS selector traverse only in forward direction.
+6.What is the difference between Radio and CheckBox button?
+Radio button:
+--------------
+• For radio button we have to select atleast one option.
+• For deselecting we have to select the another option present.
+Check box:
+------------
+• In checkboxes,we can select more than one option.
+• For deselecting we have to select the same option one more time.
+7.What is the syntax used to perform click operation using JavaScriptExecutor?
+• JavaScriptExecutor is an interface that helps to execute JavaScript through Selenium 
+WebDriver.
+To perform click operation:
+------------------------------
+• JavaScriptExecutor js=(JavaScriptExecutor)driverRef;
+• js.executeScript("arguments[0].click()",webElementRef);
+Without jscript --→using WebElement refName.Click()
+8.What are the Xpath functions available?
+• text()
+• contains()
+• starts-with()
+9.How will you select a female Radio Button in facebook signup and write a code for it ?
+*WebElement radioGender=driverRef.findElement(By.Xpath
+("//input[@value='1']");
+radioGender.click();
+10.Write a code for selecting a Radio Button and CheckBox button click ?
+11.What are the methods available in xpath?
+Baseclass method for clicking an WebElement
+*Public static void btnClick(WebElement element)
+{
+element.click();
+}
+What is mean by StaleElementReferenceException?
+• Stale Element means an old element or element that is no longer available in DOM.
+• When the user refreshes the page or navigates into new page, DOM changes then the 
+WebElement goes stale.
+• If we try to reuse the WebElement that became stale we will get 
+StaleElementReferenceException.
+• To avoid this exception, we can implement POM framework.
+What is mean by following,sibling,child,parent,preceding in Xpath?
+Following: *denotes the immediate next element of the current node.
+sibling: *denotes the following siblings of the context node. Siblings are at the same level of 
+the curren t node .
+Parent: *denotes the parent of the current node.
+Child : *denotes the child of the current node.
+Preceding: *denotes the preceding element of the current node
+Day 4
+1.What is the purpose of debug?
+• It is used to find the error in the program code.
+• It is the step by step verification.
+• We can easily identify the step where the code getting exception.
+2.What are the steps to be debug?
+• Set the break point
+• just right click-->debug us-->java application.
+• Click the shortcut key F6 for stepOver(for moving each step)
+3.What are the ways to do debug?
+• Eclipse debugger.
+• Firefox javaScript debugger.
+• Dynamic debugging technique
+• On line debugging tool.
+4.How to find xpath for any WebElement which contains no attributes?
+• By using xpath function text() and contains()
+//tagname[text()='textname']
+//tagname[contains(text(),'partial text')]
+5.How to print a paragraph from webpage?
+• By using xpath function text(),contains()
+//tagname[contains(text(),'partial text')]
+• By using getText() method we can get the text
+System.out.Println(webElemRef.getText();)
+6.What is the method used to get the text from the webpage?
+• getText() method is used to get the text from webpage.
+7.What is the purpose of getText() and getAttribute() ?
+• getText() method is used to get the text from webpage.
+• getAttribute("attributename") method is used to get the attribute value of the given attribute
+• getAttribute("value") also used to get the input what we have passed to a webElement
+8.What is the return type of getText() and getAttribute() ?
+• String is return type for both the methods.
+9.In which class/interface getText() and getAttribute() methods present ?
+• In WebElement interface ,getText() and getAttribute() methods are present
+10.What is the use of Thread.sleep(milliseconds)?
+• Thread.sleep(milliseconds) is used to make your program to wait for some defined time to 
+avoid abnormal termination due to page loading issues.
+11.Whether it is possible to get the text from webpage without using getText()?
+No,it is not possible to get the text from webpage without using getText() method.
+Day 5
+1.What is Mouse hover action?
+• To move the cursor over a desired WebElement.
+• When we place cursor over some content in the webpage,it will display a list of content.For 
+achieving those actions
+• we can use Actions class.
+2,11.Write a code to perform MouseOverAction?
+*Actions refName= new Actions(driver refName);
+refName.moveToElement(WebElementrefName).perform();
+3.Whether Actions is a class or Interface?
+*Actions is a class.
+4.How will you perform drag and drop operation?
+*Actions refName= new Actions(driver refName);
+refName.dragAndDrop(sourceWebElement,destWebElement).perform();
+(or)
+*Actions refName= new Actions(driver refName);
+refName.clickAndHold(WebElementRef).perform();
+refName.release(WebElementRef).perform();
+5.what is the use of the Actions class?
+• Actions class is used to perform mouse operations such as mouse hover action,drag and 
+drop,double click and
+• right click operations
+• This class will contain more methods for performing each of the mouse actions.
+6.What is the purpose of Drag and Drop?
+• In some webpages,the design will be like we need to drag and drop the content to the 
+specified field.
+• That we can achieve only through mouse.For mouse operations,we use Actions class in 
+Selenium.
+• dragAndDrop() method can be used to do that operation
+7.In which class dragAndDrop method is available?
+• Actions-class
+8.Why we use .perform()?
+• The menu list disappear with in the fractions of seconds before Selenium identify the next 
+submenu item and perform
+• click action on it.So,it is better to use perform() method.Only then the desired mouse action 
+can be performed.
+9.What is the purpose of moveToElement()? where it is used?
+• moveToElement() method will be used to move the cursor to the particular element.
+10.In which class moveToElement() is present?
+• Under Actions class moveToElement() is present.
+What are methods available in Actions class ?
+• moveToElement()
+• contextClick()
+• doubleClick()
+• dragAndDrop()
+12.What is the difference between moveToElement() & switchTo()?
+• moveToElement() will move to that particular element.
+• switchTo() can be used to move the control to an alert,frame or window
+Day 6
+1.How will you perform rightclick?
+• To find the locator of webElement save it in webElement refName
+• Create object for action class 
+• Actions ac = new Actions(webDriver refName);
+• ac.webelementrefname.contextclick();
+2.How will you perform double click?
+• To find the locator of webElement save it in webElement refName
+• Create object for action class 
+• Actions ac = new Actions(webDriver refName);
+• ac.webelementrefname.doubleClick();
+What is a Robot class?
+• Robot class is a class which is used to perform the keyboard actions in java.
+• It is present in java.awt package.
+• It contain two methods keyPress() and keyRelease()
+• It throws AWTException.
+What are the purpose of Robot class?
+• It is used to achieve keyboard operations while running a test script
+3.Write a code for Robot class?
+*Robot refname = new Robot();
+refname.keyPress(KeyEvent_vk_anykeyyouwant);
+refname.keyRelease(KeyEvent_vk_anykeyyouwant);
+vk-->virtual keyboard
+4.In which package Robot class is available?
+• java.awt
+5.What exception Robot class throws?
+• AWTException
+6.Which method is used to perform rightClick operation?
+• contextClick() method is used to perform rightClick.
+7.Which method is used to perform doubleClick?
+• doubleClick() method is used to perform doubleClick.
+8.Write a code to copy a text using Robot class?
+9.Write a code to paste a text using Robot class?
+10.In which class contextClick() is available?
+*Action class
+11.In which class doubleClick() is available?
+*Action class
+Day 7
+1.How will take a screenshot of webpage?
+• By using getScreenShotAs() method from TakesScreenShot interface we can take the 
+screenshot.
+2.For what reason we have to take screenshot?
+• It is used for when a test fails and taking screenshots helps the analysis so we can see what 
+went wrong during a test failure.
+3.Whether TakesScreenShot is a class or interface?
+• TakesScreenShot is a interface.
+4.In what place the screenshot will store in default?
+5.Write a code to perform Screenshot?
+Step 1) Convert web driver refname to TakeScreenshot
+TakesScreenshot scrShot =((TakesScreenshot)webdriver ref);
+Step 2) Call getScreenshotAs method to create image file
+File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+6.Whether Fileutils is a class or interface?
+• FileUtils is a static Class.
+7.Suppose we want to change the location of the screenshot what can we do?
+• With help of Fileutils.copyTo method to change the screen shot location.
+8.What is javascript?
+• Javascript is a progamming language commonly used in web development.This means 
+JavaScript functions can run after a webpage has loaded without communicating with the 
+server
+What are the screenshot output type formats available?
+• OutputType.FILE
+• OutputType.BYTES
+• OutputType.BASE64
+9,10.In which methods scrollUp and scrollDown take place? and write a code for it
+• executeScript() method from JavaScriptExecutor is used to scrollup and scroll down.
+• arguments[0].scrollIntoView(true)------argument needs to be passed for scroll down 
+operation
+• arguments[0].scrollIntoView(false)------argument needs to be passed for scroll up operation
+code : webElement reg = webdriver ref.findelements(By.id(“ “);
+Javascriptexecutor jk = (javascriptexecutor)webdriverrefname;
+Jk.executescript(“arguments[0].scrollIntoView(true)”, webelement ref);
+11.Whether JavaScriptExeceutor is a class or interface?
+• JavaScriptExeceutor is an interface.
+Day 8
+1.What is mean by alert?
+• Alert is an information box displayed in the webpage to give some information to the user.
+• When any Alert present in the webpage,without handling the alert user cannot do the next 
+operation in the webpage.
+• To handle the alert,we have Alert interface inteface in Selenium.
+2.What are the methods available in Alert?
+• accept()
+• dismiss()
+• sendkeys()
+3,4,5.Write a code to perform alert?
+Webelement refname = webdriverref .driver.findelement(By.locators(“ “));
+Alert a = Webdriverref.SwitchTo.alert();
+a.accept() OR a.dissmiss() OR a.sendkeys();
+6.Whether Alert is a class or interface?
+• *Alert is an interface.
+7.What is mean by frames?
+iFrame in Selenium Webdriver is a web page or an inline frame which is embedded in 
+another web page or an HTML document embedded inside another HTML document. 
+The iframe is often used to add content from other sources like an advertisement into a web page. 
+The iframe is defined with the <iframe> tag.
+8.What are the different types of arguments we can pass in frames?
+• WebElement
+• Name
+• Id
+• Index
+Day 9
+1.What is the purpose of DropDown?
+Dropdowns do have their advantages. First, they conserve screen space. Because they are a 
+standard widget (even if an unpleasant one), users know how to deal with them. And, when used in 
+forms and for attribute selection, dropdown boxes prevent users from entering erroneous data
+2.How will you perform DropDown?
+• By using Select class,we can select the options from single select and multi select 
+dropdown.
+3.What are the ways to select DropDown options?
+• selectByValue();
+• selectByVisibleText();
+• selectByIndex();
+4.Whether Select is a interface or class?
+• Select is a class.
+5.Write a code to print all the options in DropDown?
+• getOptions() method is used to get all options in dropdown.
+• getOptions() method will return List<WebElement> then iterating each WebElement and 
+using getText() method
+we can print all the dropdown values.
+6.Can we select multiple values in DropDown?
+• Yes,we can select multiple values in a DropDown if it is a multiselect dropdown.
+7.How to check the dropdown is single select or multi select dropdown?
+*isMultiple() method from Select class can be used to check whether the dropdown is single select
+or multi select dropdown
+8.What are the methods available in select class?
+• selectByValue();
+• selectByVisibleText();
+• selectByIndex();
+• getOptions();
+• getAllSelectedoptions();
+• getFirstselectedoptions();
+• isMultiple();
+• deSelectByValue();
+• deSelectByVisibleText();
+• deSelectByIndex();
+• deSelectAll()
+9,11.can we deselect the options in dropdown?
+Yes, we can deselect the options in dropdown using the below methods.
+• deSelectByValue();
+• deSelectByVisibleText();
+• deSelectByIndex();
+• deSelectAll()
+10.Write a code to print selected options in dropdown?
+*By using getAllSelectedoptions() method we can get all the selected WebElements.
+Select refName = new Select();
+refName.getAllSelectedoptions();
+*getAllSelectedoptions() method will return List<WebElement> then iterating each WebElement 
+and using getText() method
+we can print all the selected options from dropdown.
+Write the return type of all methods available in Select class?
+• selectByValue() -void
+• selectByVisibleText() -void
+• selectByIndex() -void
+• getOptions() -List<WebElement>
+• getAllSelectedoptions() -List<WebElement>
+• getFirstselectedoption() -WebElement
+• isMultiple() -boolean
+• deSelectByValue() -void
+• deSelectByVisibleText() -void
+• deSelectAll() -void
+• deSelectByIndex() -void
+Write a method to print the first selected option in drop down?
+• getFirstSelectedOption() method used to get the first selected option from drop down.
+• It returns Single WebElement.
+• From the WebElement we can get the text using getText() method.
+Day 10
+10.1.What is the purpose of windows Handling?
+*Whenever we have multiple windows,to switch the program control between different windows,
+you can go for windows handling concept in Selenium.
+We can perform switch the control between windows in 3 ways:
+• using window title
+• using window url
+• using window id
+2.Write a method used to get the window id of all the windows opened?
+*Set<String> refname= driverRefName.switchTo.getWindowsHandles();
+84.What are the different types of arguments you can pass in windows()?
+• id
+• url
+• title
+But all the arguments are of String type.
+11.When you have multiple windows opened ,how to directly switch from parent window to
+8 th child window? Without using any for loop
+List<String> allWindowsId=(List<String>)driver.getWindowHandles();
+driver.SwitchTo().window(allWindowsId.get(7));
+What are the difference between getWindowHandle() and getWindowHandles()?
+• 3(method toget parent window).getWindowHandle() is used to get the parent window id.
+• 4(method to get child window).getWindowHandles() is used to get all the child windows 
+id.
+8,9 . what is the return type of 
+getwindowHandle() ---------→ String
+getwindowHandles() -------→ set<String> refName
+Day 11
+1.What is meant by webtable?
+• Table present in a webpage is called webtable.
+• It starts and ends with <table> and</table>.
+• The web table contain <tr> <td> <th> tags.
+• <tr></tr> represents table row
+• <td></td> represents table data
+• <th></th> represents table heading
+2.What is the use of webtable?
+Web tables are commonly used when information has to be displayed in tabular format. 
+The information in the cells can be static or dynamic. Web tables in Selenium are tested using 
+WebElement APIs along with usage of appropriate locators like XPath, CSS class name, CSS ID, 
+etc.
+3,4. Under which tags webtable is present in html?
+The <table> tag defines an HTML table. An HTML table consists of one <table> 
+element and one or more <tr>, <th>, and <td> elements. 
+The <tr> element defines a table row, 
+the <th> element defines a table header, and
+the <td> element defines a table cell.
+5.Write a code to display all the Column Name in table?
+*List<WebElement> rowRef=driver.findElements(By.tagname("tr"));
+WebElement firstRow=rowRef.get(0);
+List<WebElement> colRef=firstRow.findElements(By.tagname("td"));
+for(int j=0;j<colRef.size();j++)
+{
+List<WebElement> col=colRef.get(j);
+String colText=col.getText();
+System.out.println(colText);
+}
+6.Write a code to print all the data from a webtable?
+List<WebElement> rowRef=driver.findElements(By.tagname("tr"));
+for(int i=o;i<ref.size();i++)
+{
+WebElement row=rowRef.get(i);
+List<WebElement> heaRef=row.findElements(By.tagname("th"));
+for(int j=0;j<heaRef.size();j++){
+String head= heaRef.get(j).getText();
+System.out.println(head);
+}
+List<WebElement> dataRef=row.findElements(By.tagname("td"));
+for(int j=0;j<colRef.size();j++)
+{
+List<WebElement> col=colRef.get(j);
+String colText=col.getText();
+System.out.println(colText);
+}
+}
+Day 12
+1.what is mean by javascript?
+JavaScript is a programming language commonly used in web development. ... This 
+means JavaScript functions can run after a webpage has loaded without communicating with the 
+server.
+2.Whether javascript is a class or interface?
+Javascript is Interface.
+3.What is method available to run the javascript?
+4.Write a code to click a button using a javascript?
+Javascriptexecutor jk = (javascriptexecutor)webdriver refname
+Jk.executescript(“arguments[0].click()”,webelementref);
+5.Write a code to insert a value in textBox using JavaScript?
+Javascriptexecutor jk = (javascriptexecutor)webdriver refname
+Jk.executescript(“arguments[0].setAttribute(‘value’
+,
+’sendkeysdata’)”,webelementref);
+6.What method is used to get the font size of the WebElement in a webpage?
+7.What method is used to get the Color of the WebElement in a webpage? 
+8.Write a code to highlight the WebElement in a webpage?
+9.Write a code to get the InnerText and Title of a webpage using Javascript?
+Javascriptexecutor jk = (javascriptexecutor)webdriver refname
+Object obj =Jk.executescript(“return arguments[0].getAttribute(‘value’)”,webelementref);
+String txt = (String)obj;
+Sys(text);
+10.Write a code to perform scrollUp in a webpage using Javascript?
+Javascriptexecutor jk = (javascriptexecutor)webdriver refname
+Jk.executescript(“arguments[0].scrollIntoView(false)”,webelementref);
+11.Write a code to perform scrolldown in a webpage using Javascript?
+Javascriptexecutor jk = (javascriptexecutor)webdriver refname
+Jk.executescript(“arguments[0].scrollIntoView(true)”,webelementref);
+89.What is the use of wait?
+*Wait operation is used to make your script to wait the for some time till webpage is getting 
+loaded completely to
+avoid exceptions due to page loading issues
+90.What are the types of wait?
+*Static wait
+=========
+Even though the locator is found, it will wait for maximum time
+Thread.sleep(milliseconds);--->throws InterruptedException
+Eg:
+Thread.sleep(5000);--->wait for 5 seconds
+*Dynamic wait:
+===========
+• *If the locator is found within some seconds,it will not wait till the maximum time.
+• *Implicit wait
+• *Explicit wait
+91.What are the difference between implict wait and explict wait?
+Implict wait:
+--------------
+• *It is applicable for all the locators in the webpage.
+• *driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+Explict wait:
+---------------
+• We can set ExplicitWait for particular locator/condition.
+97.Explain each word in WebDriver driver=new ChromeDriver();
+• WebDriver -->interface
+• driver -->reference name
+• new -->keyword
+• ChromeDriver-->Class name
+98.What is the difference between defaultContent() and parentFrame() method?
+• *defaultContent() returns the control to the main webpage.
+• *parentFrame() returns the control to the immediate parent frame of the current frame.
+100.What is the purpose of isDisplayed(),isSelected(),isEnabled()?
+• isDisplayed()-To check whether WebElement is hidden or not.
+• isSelected() -To check whether checkbox ,radio box or dropdown value is selected or not.
+• isEnabled() -To check whether button and textbox is in enabled state or not.
+101.What is mean by Fluent Wait?
+• Each FluentWait instance defines the maximum amount of time to wait for a condition, as 
+well as the frequency with which to check the condition.
+• The user may configure the wait to ignore specific types of exceptions while waiting, such 
+as
+NoSuchElementExceptions when searching for an element on the page.
+• .
+103.What is the use of getCssValue() method?
+To get the value of a given CSS property of a WebElement such as font color,alignment,size etc
+104.What is the difference between partial link text and link text?
+LinkText:
+-----------
+• In linktext we take all the text from a link(link must be a hyperlink)
+• Example: WebElement web = driver.findElement(By.linkText("Product Category”));
+PartialLinkText:
+----------------
+• In the PartialLinkText we take partial text from a link's text(link must be a hyperlink)
+• Example: WebElement web = driver.findElement(By.partialLinkText("Category”));
+105.List some of the interfaces available in selenium?
+• WebDriver
+• JavascriptExecutor
+• Alert
+• TakeScreenShot
+106.What is a broken link and how do you find it?
+• Broken links are links or URLs that are not reachable.
+For checking the broken links, you will need to do the following steps.
+--------------------------------------------------------------------------
+• Collect all the links in the web page based on <a> tag.
+• Send HTTP request for the link and read HTTP response code.
+• Find out whether the link is valid or broken based on HTTP response code.
+• Repeat this for all the links captured.
+107.What is framework, why we go for framework?
+• Famework is a code structure that helps to make code maintenance easy.
+• Without frameworks, we will place the “code” as well as “data” in the same place which is 
+neither re-usable nor readable.
+• Using Frameworks, produce beneficial outcomes like increased code re-usage, higher 
+portability, reduced script maintenance cost, higher code readability, etc.
+108.What is the difference between get() and navigate()?
+• If we use get() method, it is used to launch the given url and get() method will wait till the 
+page loads completely
+• If we use navigate() method, we can perform back(), refresh() and forword() action since it 
+stores browser cookies and navigate() method will not wait till the page loads completel
