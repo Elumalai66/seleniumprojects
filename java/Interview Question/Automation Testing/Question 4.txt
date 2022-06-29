@@ -45,7 +45,8 @@ Locators are identified by using "By.locators"
                   Step4:Now call the objectName with required Select methods(selectByValue,selectByVisibleText,selectByIndex)
                         [objectName.selectByvalue();]
                         
-6) What is the difference between Absolute Path and Relative Path?      
+6) What is the difference between Absolute Path and Relative Path? 
+
   Absolute Xpath:   
       -> It contains the complete path from the Root Element to the desire element.
      
@@ -63,20 +64,25 @@ Relative Xpath:
 	    if(enabled) {
 	    	enab=true;
 	        System.out.println(enab);
+		
 8) Difference between System.setProperty and WebDriverManager?
+
          System.setProperty manages the initialization of the Chrome driver in the first step.
           -> setProperty() method forms the basis for test case automation on any browser.
          WebDriverManager automates the browser setup in the Selenium code with a help of pom.xml. 
 	        -> We just need to add its dependency through Maven or Gradle to download all the necessary drivers.
  
 9) Write the syntax for preceding and following x-paths ?
+
  Syntax for preceding :
          Elder Sibling Xpath/following-SiblingYounger::tagname
- Syntax for following        
+	 
+ Syntax for following :      
          Younger Sibling Xpath/preceding-SiblingElder::tagname
         
 10) How to get an attribute value using Selenium WebDriver?
+
    The getAttribute() method helps to get the value of any attribute of a web element, which is returned as a String. 
-	 If an attribute has a Boolean value, the method returns either True or null. 
-	 Also, if there is no attribute, the method will return null.
+   If an attribute has a Boolean value, the method returns either True or null. 
+   Also, if there is no attribute, the method will return null.
   
