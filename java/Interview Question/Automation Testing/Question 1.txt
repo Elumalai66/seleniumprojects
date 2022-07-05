@@ -20,7 +20,15 @@ ANS   : * Code Reusability
         
 4. example for selenium ? 
 
-ANS   : Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an         internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
+ANS   :
+        Selenium is an open source automation testing tool which is used to test web applications.
+       • Selenium testing tool consists of different set of tools in it like 
+         Selenium WebDriver, 
+         Selenium RC, 
+         Selenium IDE.
+       • which has different features.
+       
+        Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an         internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
 
         ex:   Child Class           Parent Class
                    |                    |
