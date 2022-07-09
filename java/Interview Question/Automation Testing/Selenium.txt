@@ -1,0 +1,87 @@
+1) What is Selenium? What are the different Selenium components? Explain about Selenium Webdriver.
+         Selenium is an open source tool that automates web browsers.It provides a single interface that lets you write test scripts in programming languages
+         like Ruby,Java,NodeJS,PHP,Perl,Python,and C,among others.
+	 
+	 Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms.
+	 You can use multiple programming languages like Java, C#, Python etc to create Selenium Test Scripts. 
+	 Testing done using the Selenium testing tool is usually referred to as Selenium Testing.
+
+Different Selenium components: There are Four Selenium components 
+                               -> Selenium IDE.
+                               -> Selenium RC.
+                               -> Selenium WEBDRIVER.
+                               -> Selenium GRID.
+Selenium WebDriver:  Selenium Webdriver is a collection of open source APIs(Application Programming Interfaces) which are used to automate 
+                     the testing of a web applications.It supports many browsers such as Firefox,Chrome,IE and Safari.
+
+2) How does Selenium communicate with the Web browsers?
+          
+       STEP 1.Selenium Script create an HTTP request for each selenium command and sends it to the browser driver.
+       STEP 2.An HTTP request is then sent to the server using Browser Driver.
+       STEP 3.The steps are executed on the HTTP server.
+       STEP 4.The execution status is sent to the HTTP server which is then captured by the automation script.
+       
+3) What are the locators available to find an element using Selenium?
+Selenium Locators: There are eight locators in Selenium
+                   -> id
+                   -> Name
+                   -> className
+                   -> linkText
+                   -> partiallyLinkText
+                   -> tagName
+                   -> CssSelector
+                   -> X-path
+                   
+Locators are identified by using "By.locators" 
+
+4) Why ID is preferable than X-Path ?
+            ID is preferable than Xpath because Id is in a unique .so we are prefer Id than X-path.
+
+5) How to select value in dropdown?
+                  Step1:Import Select Package.
+                  Step2:Create an Webelement for a required findelement.
+                  Step3:Now call a Select class and create a object
+                        [Select objectName = new Select();]
+                  Step4:Now call the objectName with required Select methods(selectByValue,selectByVisibleText,selectByIndex)
+                        [objectName.selectByvalue();]
+                        
+6) What is the difference between Absolute Path and Relative Path? 
+
+  Absolute Xpath:   
+      -> It contains the complete path from the Root Element to the desire element.
+     
+Relative Xpath: 
+      -> This is more like starting simply by referencing the element you want and go from the particular location.
+     
+     
+7) How to verify if the given check box is checked or not ?[(it is not taught but you can explore)Try here: http://leafground.com/pages/checkbox.html]
+
+		WebElement checkBox = driver.findElement(By.xpath("//div[text()='Java']//input"));
+		checkBox.click();
+		
+		boolean enabled = checkBox.isEnabled();
+		boolean enab = false;
+	    if(enabled) {
+	    	enab=true;
+	        System.out.println(enab);
+		
+8) Difference between System.setProperty and WebDriverManager?
+
+         System.setProperty manages the initialization of the Chrome driver in the first step.
+          -> setProperty() method forms the basis for test case automation on any browser.
+         WebDriverManager automates the browser setup in the Selenium code with a help of pom.xml. 
+	        -> We just need to add its dependency through Maven or Gradle to download all the necessary drivers.
+ 
+9) Write the syntax for preceding and following x-paths ?
+
+ Syntax for preceding :
+         Elder Sibling Xpath/following-SiblingYounger::tagname
+	 
+ Syntax for following :      
+         Younger Sibling Xpath/preceding-SiblingElder::tagname
+        
+10) How to get an attribute value using Selenium WebDriver?
+
+   The getAttribute() method helps to get the value of any attribute of a web element, which is returned as a String. 
+   If an attribute has a Boolean value, the method returns either True or null. 
+   Also, if there is no attribute, the method will return null.
