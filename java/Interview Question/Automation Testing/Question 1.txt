@@ -1,42 +1,82 @@
-1. What is inheritance?
+ 1. What is OOPs Stands for?
+
+  OOPs Stands For Object Oriented Programming. And it is a procedural language.
+          The Four types of OOps Concepts are:
+            *   Polymorphism
+            *   Encapsulation
+            *   Inheritance
+            *   Abstraction 
+	    
+What is Polymorphism? explain types?
+
+      In java, We can perform a single action in multiple ways is called polymorphism.There are two Types:
+            * Method Overloading 
+                  -> It has same class name, same method name but different arguments are passed is called Method overloading.
+                  -> It is a Compile Time polymorphism.
+                  -> And this is Static polymorphism.
+                   ex:   System.out.println(x);  =>here we declare multiple datatype for the variable x so it is realtime example for method overloading.
+
+            * Method Overriding
+                  -> It has different class name and same method name from the existing class is called as method overriding.
+                  -> It is a Run Time Polymorphism.
+                  -> And this is Dynamic polymorphism.
+                   ex:    SetFileDetector();  =>This is used to set the file path for manually download the driver.
+
+What is  Encapsulation ?
+  
+      Encapsulation is defined as the wrapping up of data under a single unit. 
+      It is the mechanism that binds together code and the data it manipulates.
+      Another way to think about encapsulation is, that it is a protective shield that prevents the data from being accessed by the code outside this shield. 
+
+What is inheritance?
 
 ANS   : Inheritance in Java is a concept that acquires the properties from one class to other classes. 
         In Java, a class can inherit attributes and methods from another class.
         The class that inherits the properties is known as the sub-class or the child class.
         
-2. What are the types of inheritance?
+What are the types of inheritance?
 
-ANS   : There are three types of inheritance in java: Single, Multilevel and Multiple.
-       Single: Multilevel and Multiple.
+ANS   : There are five types of inheritance in java: Single, Multiple, Multilevel, Hybrid and Hierarchical.
+       
+        Single Inheritance: In single inheritance, subclasses inherit the features of one superclass.
+       
+        Multiple Inheritance : In Multiple inheritances, one class can have more than one superclass and inherit features from all parent classes.
+       
+        Multilevel Inheritance: In Multilevel Inheritance, a derived class will be inheriting a base class and as well as the derived class also act as the base class to other class.
+       
+        Hierarchical Inheritance: In Hierarchical Inheritance, one class serves as a superclass (base class) for more than one subclass.
+       
+        Hybrid Inheritance : It is a mix of two or more of the above types of inheritance. Since java doesn’t support multiple inheritances with classes, hybrid inheritance is also not possible with classes. In java, we can achieve hybrid inheritance only through Interfaces.
+      
+What are the advantages in inheritance?
 
-        Multiple and Hybrid inheritance is supported through interface only.Hierarchical
-        
-3. What are the advantages in inheritance?
-
-ANS   : * Code Reusability
+        * Code Reusability
         * Easy to maintanance
         * Effective memory management
         
-        
-4. example for selenium ? 
+What is abstarct class and example?
 
-ANS   :
-        Selenium is an open source automation testing tool which is used to test web applications.
-       • Selenium testing tool consists of different set of tools in it like 
-         Selenium WebDriver, 
-         Selenium RC, 
-         Selenium IDE.
-       • which has different features.
-       
-        Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an         internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
+        Abstract class is a restricted class that cannot be create a object. To access the abstract class, it must be inherited from other class.
+              Ex.)
+                  public abstract class CollegeName{
+                    public void name()
+                    {
+                      System.out.println("PSNAcet");
+                    }
+                    public abstract void department();
+                   }
 
-        ex:   Child Class           Parent Class
-                   |                    |
-            * ChromeDriver extends ChromiumDriver
-            * ChromiumDriver extends RemoteWebDriver
-            * RemoteWebDriver implements WebDriver
-            * WebDriver extends SearchContext
-            * Interface SearchContext
+
+What is interface and example in selenium,java?
+      
+        Interface is used to achieve abstraction. In interface we can't create an object and instantiate variable.
+        In a interface we can use only public access modifier or default. And it have unimpleted methods only. Interface is a blue print of class.
+          Ex.)
+              Webdriver is an interface in selenium
+              WebDriver driver=new WebDriver();
+
+
+
             
 5.Difference between Array and ArrayList ?
 
