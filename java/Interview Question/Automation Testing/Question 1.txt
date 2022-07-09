@@ -41,7 +41,10 @@ ANS   :
 5.Difference between Array and ArrayList ?
 
 ANS   : In Java, array and ArrayList are the well-known data structures. An array is a basic functionality provided by Java, 
-   where as ArrayList is a class of Java Collections framework. It belongs to java.util package.   
+   where as ArrayList is a class of Java Collections framework. It belongs to java.util package. 
+     Array :
+           Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+           To declare an array, define the variable type with square brackets:
         
      ArrayList :
           Arraylist is collection of similar datatypes .
