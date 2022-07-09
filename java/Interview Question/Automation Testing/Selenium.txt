@@ -85,3 +85,35 @@ Relative Xpath:
    The getAttribute() method helps to get the value of any attribute of a web element, which is returned as a String. 
    If an attribute has a Boolean value, the method returns either True or null. 
    Also, if there is no attribute, the method will return null.
+   
+   
+      7.What is the keyword for using inheritance  ?
+
+            Extends is the keyword, is used to inherit the properties of the class.
+
+
+   8.what is the keyword to connect interface and class?
+
+             Implements is the keyword, to access the interface it must be implemented by the class with the implemented methods.
+       The body of the interface method is provided by the implemented class.
+
+
+4. example for selenium ? 
+
+ANS   :
+        Selenium is an open source automation testing tool which is used to test web applications.
+       • Selenium testing tool consists of different set of tools in it like 
+         Selenium WebDriver, 
+         Selenium RC, 
+         Selenium IDE.
+       • which has different features.
+       
+        Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an         internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
+
+        ex:   Child Class           Parent Class
+                   |                    |
+            * ChromeDriver extends ChromiumDriver
+            * ChromiumDriver extends RemoteWebDriver
+            * RemoteWebDriver implements WebDriver
+            * WebDriver extends SearchContext
+            * Interface SearchContext
