@@ -94,3 +94,213 @@
 
           Class;
             ->  Class contains only the implemented methods.
+            
+            
+            
+            
+            
+            why java is platform independent and jvm is platform dependent?
+List any five features of java?
+What all memory areas are allocated by JVM?
+What is difference between JDK, JRE and JVM?
+What is javac?
+Why java is not 100 object oriented language?
+What is the base class of all classes in java?
+What gives java its write once and run anywhere nature?
+What is classloader in java?
+Is empty .java file name a valid source file name?
+Can we overload main() method in java?
+Can we declare main() method as private or protected or with no access modifier?
+Can we declare main method as non static in java?
+Why main() method must be static?
+Can we change return type of main() method?
+Can we run java class without main() method?
+Difference between Object Oriented Programming and Procedural Programming.
+Difference between Object Oriented and Object based language.
+What is class in java?
+What is object in java?
+How to open a notepad in java?
+What is constructor?
+Default constructor
+Does constructor return any value in java?
+Is constructor inherited in java?
+Can you make a constructor final in java?
+Difference between constructor and method in java?
+How to copy values from one object to another java?
+How to overload constructor in java?
+can you create an object without using new operator in java?
+Constructor chaining in java
+Parameterized constructor in java
+Can we call subclass constructor from superclass constructor?
+What happens if you keep return type for a constructor?
+What is the use of private constructor in java?
+Can a constructor call another constructor java?
+What is static variable in java?
+What is static method in java?
+What is static block in java?
+What is this in java?
+What is aggregation in java?
+What is inheritance in java?
+Why multiple inheritance is not supported in java?
+How to implement multiple inheritance in java?
+Are interfaces also inherited from Object class?
+Why an interface cannot have constructor in java?
+How do you restrict a member of a class from inheriting to it’s sub classes?
+Can a class extend itself in java?
+Are constructors inherited in java?
+What happens if both superclass and subclass have a field with same name?
+Are static members inherited to subclasses in java?
+what are access modifiers in java?
+What are different types of access modifiers in java?
+What are non access modifiers in java?
+Can we use abstract and final both with a method?
+Can abstract class have final methods in java?
+Can we declare a class as private in java?
+Can we declare an abstract method as private?
+Can we declare a class as protected in java?
+what is final in java?
+What is final variable in java?
+What is final method in java?
+What is final class in java?
+What is blank final variable in java?
+What is static blank final variable in java?
+What is final parameter in java?
+Can we initialize blank final variable in java?
+Can we declare the main method as final?
+What is the use of final keyword in java?
+Can we change the state of an object to which a final reference variable is pointing?
+Difference between abstract method and final method in java?
+Can we change the value of an interface field?
+Can we declare constructor as final in java?
+What is runtime polymorphism in java?
+Can we achieve runtime polymorphism by data members?
+What is the difference between static binding and dynamic binding in java?
+What is abstraction in java?
+What is the difference between abstraction and encapsulation?
+What is encapsulation in java?
+What is polymorphism in java?
+Are true and false keywords in java?
+Can we declare local inner class as private?
+Is “abc” a primitive value?
+What is the priority of garbage collector thread?
+Is map collection in java?
+Which package is always imported by default?
+Can a class implement two interfaces with the same method signature?
+Can you declare an interface method static in java?
+Which one is faster among string stringbuffer and stringbuilder?
+What is method overloading in java?
+Can we declare an overloaded method as static and another one as non-static?
+Can overloaded methods be synchronized?
+Synchronized override method
+Can we declare overloaded methods as final?
+Can overloaded method be overridden?
+What is method overriding in java?
+Can static method be overridden?
+Difference between method overloading and overriding in java?
+Can we override private methods in java?
+Is it possible to override non static method as static method?
+What is interface in java?
+Can we declare an interface method static in java?
+Can an interface be declared final in java?
+What is marker interface and how we can create it?
+What is difference between abstract class and interface in java?
+What is abstract class in java?
+Why abstract class is used in java?
+Can abstract class have constructors in java?
+Can abstract class be final in java?
+Can we declare local inner class as abstract?
+what is an exception?
+How the exceptions are handled in java?
+What is the difference between error and exception in java?
+Can we keep other statements in between try catch and finally blocks?
+Explain the exception hierarchy in java?
+What are runtime exceptions in java?
+What is outofmemoryerror in java?
+What are checked and unchecked exceptions in java?
+What is the difference between classnotfoundexception and noclassdeffounderror in java?
+Will finally block get executed if return?
+Can we throw an exception without throws?
+What is rethrowing an exception in java?
+What is the use of throws keyword in java?
+What is exception propagation in java?
+Difference between throw and throws in java?
+What is finally in java?
+What is the difference between final finally and finalize in java?
+How to create customized exceptions in java?
+What is classcastexception in java?
+What is stackoverflowerror in java?
+What is the superclass of all exception classes?
+What is the use of printstacktrace method in java?
+What is arraystoreexception in java?
+Why string objects are immutable in java?
+How many ways we can create the string object?
+Why java uses the concept of string literal?
+String vs StringBuffer vs StringBuilder in java
+How to create immutable class in java?
+What is the purpose of toString() method in java?
+Is string a keyword in java?
+Is string a primitive type or derived type?
+What is string constant pool in java?
+What are mutable and immutable objects in java?
+What is string intern in java?
+Can we call string class methods using string literals?
+Can we change array size in java?
+What is an anonymous array in java?
+Difference between array and arraylist in java?
+What are jagged arrays in java?
+Can array size be negative in java?
+Java program to find duplicate elements in an array.
+Java program to find second largest element in an array of integers.
+Java program to check the equality of two arrays.
+Find all pairs of elements in an integer array whose sum is equal to a given number.
+Java program to find continuous sub array whose sum is equal to a given number
+Java program to find the intersection of two arrays
+Java program to separate zeros from non-zeros in an integer array
+Java program to find all the leaders in an integer array
+Java program to find a missing number in an integer array
+Java program to convert an array to ArrayList and an ArrayList to array
+Java program to count occurrences of each element in an array
+Java program to reverse an array without using an additional array
+Java program to remove duplicate elements from an array
+Java program to find union and intersection of multiple arrays
+Java program to find the most frequent element in an array
+What is multithreading?
+Difference between process and thread in java?
+What is thread in java?
+What is join method in java?
+What is the difference between sleep and yield method?
+Is it possible to start a thread twice in java?
+Can we call run method directly in java?
+What is daemon threads in java?
+Can we make the user thread as daemon thread if thread is started?
+Difference between thread start and run method.
+Why we call start method in thread?
+Which is a better way to create a thread in java?
+Can we override start method?
+Can we override run method?
+How to get current thread in java?
+What is synchronization?
+What is synchronized block in java?
+What is synchronized method in java?
+What is static synchronization in java?
+What is deadlock in java?
+What is starvation in java?
+ArrayList vs LinkedList vs Vector
+Iterator vs ListIterator vs Enumeration
+List vs Set Vs Map
+HashSet vs LinkedHashSet vs TreeSet
+HashMap vs LinkedHashMap vs TreeMap vs HashTable
+HashSet vs HashMap vs HashTable
+Collection vs collections in java
+Comparable vs Comparator interfaces
+What is garbage collection in java?
+What is garbage collector in java?
+Can an unreferenced objects be referenced again in java?
+What kind of thread is the garbage collector thread in java?
+what is serialization in java?
+what is Deserialization in java?
+What is transient keyword?
+Java hashcode and equals methods
+How HashMep works internally?
+How hashmap stores null key?
+How hashset works internally?
