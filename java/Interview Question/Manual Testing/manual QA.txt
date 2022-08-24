@@ -1,0 +1,303 @@
+Why Testing? 
+We can deliver the quality product to the end user or client 
+The goal of the all IT company we need to provide very good product to the customer. so testing is the playing in major role that's why i want to be part that  even developer also can do. anyone can write the code but deliver the quality product is a not a easy task. 
+
+WHAT IS SOFTWARE TESTING?
+→ It is a process of analyzing s/w item to detect the differences between existing and required conditions and to evaluate the features of the s/w item.
+→ It is a verification and validation process.
+→Process of demonstrating that errors are not present.
+
+What is Manual Testing?
+Manual testing is a software testing process in which test cases are executed manually without using any automated tool. All test cases executed by the tester manually according to the end user's perspective.
+
+What is Automation Testing?
+Automation testing is a Software testing technique to test and compare the actual outcome with the expected outcome. This can be achieved by writing test scripts or using any automation testing tool. Test automation is used to automate repetitive tasks and other testing tasks which are difficult to perform manually. 
+
+What is Regression Testing?
+It is a kind of Software Testing performed after software build to ensure that the existing functionality of the application is working fine or not. 
+
+What is Re-Testing?
+To test whether the reported bug has been resolved by the developer team or not, is known as retesting.
+
+What is Smoke Testing?
+It is a kind of Software Testing performed after software build to ascertain that the critical functionalities of the program are working fine.The objective of this testing is to verify the "stability" of the system in order to proceed with more rigorous testing. 
+
+What is Functional Testing?
+Functional Testing is a type of Software Testing in which the system is tested against the functional requirements and specifications. It ensures that the requirements or specifications are properly satisfied by the application or not. This type of testing is particularly concerned with the result of processing.
+Major Functional Testing Techniques:
+Unit Testing
+Integration Testing
+User Acceptance Testing
+Smoke Testing
+Interface Testing
+Usability Testing
+System Testing
+Regression Testing
+
+What is Non-Functional testing? 
+Non-functional Testing is a type of Software Testing that is performed to verify the non-functional requirements of the application. It verifies whether the behavior of the system is as per the requirement or not. It tests all the aspects which are not tested in functional testing.
+
+What is Unit Testing?
+It is done to check whether the individual unit or module of the source code is working properly or not. It is done by the developer.It is also called as module testing . 
+
+What is Integration testing?
+It's a individual components of the software are tested in a group.The focus of the integration testing level is to expose defects at the time of interaction between integrated components or units.Normally it was done by developer but a tester can also perform if he has the knowledge of coding. 
+
+What is big bang approach?
+Big Bang approach is an integration testing strategy where in all units are linked at once, resulting in a complete system. When this type of testing strategy is adopted, it is difficult to isolate any errors found, because attention is not paid to verifying the interfaces across individual units.
+
+What is the top–down approach?
+In Top to down approach, testing takes place from top to  bottom following the control flow of the software system. Takes help of stubs for testing.
+Stub:
+Stubs is a dummy modules are used that simulate the working of modules by providing  expected output based on the input values.
+Ex: login page to home page
+
+What is the Bottom – Top approach?
+In the bottom up strategy, each module at lower levels is tested with higher modules until all modules are tested. It takes help of Drivers for testing.
+Driver:
+Drivers are used to simulate the working of top level modules in order to test the related modules lower in the hierarchy.
+Ex: home page to login page
+
+What is System Testing?
+It is a black box testing technique performed to evaluate the computer system. It include both functional and non-functional testing. Verifying the completed system to ensure that the application works as intended or not.
+
+What is Acceptance Testing?
+Acceptance Testing is a method of software testing where a system is tested for acceptability. The major aim of this test is to evaluate the compliance of the system with the business requirements and assess whether it is acceptable for delivery or not. 
+
+What is Alpha Testing?
+Alpha Testing is a type of software testing performed to identify bugs before releasing the product to real users or to the public. Alpha Testing is one of the user acceptance testings. 
+
+What is Beta – Testing?
+Beta Testing is performed by real users of the software 
+application in a real environment.Beta testing is one of 
+the types of User Acceptance Testing.
+
+What is user Acceptance Testing? 
+User Acceptance Testing (UAT) is a type of testing performed by the end user or the client to verify the software system before moving the software application to the production environment. UAT is done in the final phase of testing after unit, integration and system testing is done.
+
+What is the life cycle of Testing?
+Software testing life cycle refers to all the activities performed during testing of a software product. 
+
+What is Sanity testing?
+Sanity testing is a kind of Software Testing performed after receiving a software build, with minor changes in code, or functionality, to ascertain that the bugs have been fixed and no further issues are introduced due to these changes.
+
+What tool is used for Manual Testing?
+TestLodge..
+TestLink.
+Trello.
+Jira.
+Zephyr. 
+Basecamp.
+Sauce Labs.
+Browser Shots.
+
+What is Build?
+software build is a set of executable code that is ready for use by customers. The DevOps team compiles the source code, such as code in Java or C++, into binaries to make sure it's functional and test code quality before committing it.
+
+What is Release?
+A release is the distribution of the final version or the newest version of a software application. A software release may be public or private and generally signifies the unveiling of a new or upgraded version of the application.
+
+What is Sprint in agile?
+A sprint is a short time-boxed period when a scrum team works to complete a set amount of work. Sprints are at the very heart of scrum and agile methodologies, and getting sprints right will help your agile teamship better software with fewer headaches.
+
+What is a Product backlog?
+A product backlog is a priority list of work items or features that help you meet product goals and set expectations among teams. 
+
+What is Sprint Backlog?
+The Sprint Backlog is a subset of the Product Backlog. It is a forecast of work to be done in the Sprint's expected time frame.
+
+What is the time limit of a sprint in Agile?
+Sprint planning is limited to a maximum of eight hours. The general rule of thumb is to allow two hours of sprint planning for every one week of sprint length. That means teams should timebox sprint planning to four hours for a two-week sprint and eight hours for a one-month sprint.
+
+21.What is Agile?
+AGILE is a methodology that promotes continuous iteration of development and testing throughout the software development life cycle of the project. Both development and testing activities are concurrent unlike the Waterfall model.
+
+22.What is the User story in Manual Testing?
+A user story is a tool in Agile software development used to capture a description of a software feature from a user's perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement. 
+
+23.What is a Test case?
+A test case is a set of actions performed on a system to determine if it satisfies software requirements and functions correctly. 
+
+25.What is Epic?
+An epic is a large body of work that can be broken down into a number of smaller stories, or sometimes called “Issues” in Jira. Epics often encompass multiple teams, on multiple projects, and can even be tracked on multiple boards. 
+
+26.What is a Change request?
+A change request is a formal proposal for an alteration to some product or system. 
+
+27.What is an Enhancement Request?
+An enhancement request is a piece of functionality that was not specified at the time that the code was written, or an extension to what is already present. Undocumented functionality is considered an enhancement request.
+
+What is Bug in Manual Testing?
+The Bug is the informal name of defects, which means that software or application is not working as per the requirement is called Bug.
+
+28.What are the types of bugs?
+Bug is a deviation from the expected behavior to the actual behavior of the system is called Bug. The types are
+Functional errors. 
+Syntax errors. ...
+Logic errors. ...
+Calculation errors. ...
+Unit-level bugs. ...
+System-level integration bugs. ...
+Out of bounds bugs.
+
+What is static testing?
+It involves in reviewing the documents to identify the defects in the early stages of SDLC.
+
+What is Dynamic Testing?
+It involves in the execution of code. It validates the output with the expected outcome.
+
+What is white box testing?
+White box testing techniques analyze the internal code of structures the used data structures, internal design and the working of the software rather than just the functionality as in black box testing. It is also called glass box testing or clear box testing or structural testing.
+
+What is Black box testing?
+Black box testing is a type of software testing in which the functionality of the software is not known. The testing is done without the internal knowledge of the products. Black box testing can be done in the following ways: 
+
+What is Grey Box Testing?
+It is a combination of both black box and white box testing. The tester who works on this type of testing needs to have access to design documents, this helps to create better test cases.
+
+32.What is Test Plan? 
+It is a document which contains the plan for all the testing activities. It was originally developed by project manager.
+The contents of the Test Plan
+• Objective
+• Features to be tested
+• Features not to be tested
+• Test Approach
+• Entry Criteria
+• Exit Criteria
+• Suspension & Resumption criteria
+• Test Environment
+• Test Deliverables & Milestones
+• Schedules
+• Risks & Mitigations
+• Approvals
+
+What is SEVERITY AND PRIORITY?
+If the company name is misspelled in the home page of the website, then the priority is high and severity is low to fix it. 
+
+34.What are Verification and validation?
+Verification→
+o It is a process of confirming whether the s/w meets it’s requirement or not.
+o Process of reviewing the work product.
+o Are we building the product right?
+o It is a QA activity.
+o It’s a static process performed at compile time.
+o It is performed by a QA team or by developer.
+Validation→
+o It is a process of confirming whether the s/w meets user’s requirement or not.
+o Process of executing a product  how it behaves.
+o Are we building the right product?
+o It is a QC activity.
+o It’s a dynamic process performed at run time.
+o It is performed by a QC team or by tester.
+
+DIFFERENCE BETWEEN QUALITY CONTROL AND QUALITY ASSURANCE?
+QA→
+o It ensures the prevention of defects in the process used to make s/w application.
+o It involves in process-oriented activities.
+o Aim to prevent defect.
+o Eg:- verification 
+o It is the technique of managing the quality.
+o All team members are responsible for QA.
+o QA is responsible for SDLC.
+o It is a process to create the deliverables.
+ QC→
+o It executes the program or code to identify the defects in the s/w application.
+o It involves in product-oriented activities.
+o Aim to identify the defect and improve.
+o Eg:- validation 
+o It is a method to verify the quality.
+o Testing team is responsible for QC.
+o QC is responsible for STLC.
+o It is a process to verify that deliverables.
+
+36.What is Equivalence class partitioning ? 
+In ECP, the set of range values that can be partitioned into classes with equal values. If we take 1 to 40 means 
+  1-10             11-20            21-30             31-40
+Class 1         class 2         class 3         class 4
+
+37.What is boundary value analysis?
+To test the boundary value of both valid and invalid input parameters for the given range. 1-10means 
+0 invalid, 1valid, 2 valid, 9 invalid, 10 valid, 11 valid 
+
+44.How system Testing differs from UAT?
+It is used to check whether the software meets the customer requirements or not. Acceptance testing is used by testers, stakeholders as well as clients.
+
+45.What is Data-Driven Testing?
+A Data-Driven Testing is a type of software testing methodology or more exactly approach to the architecture of automated tests by creating test scripts and reading data from data files. 
+
+46.What is Test Scenario?
+Test scenario is what need to be tested or what functionality to be tested. 
+
+What is Test Case?
+The test case is defined as a group of conditions under which a tester determines whether a software application is working as per the customer's requirements or not. Test case designing includes preconditions, case name, input conditions, and expected result. A test case is a first level action and derived from test scenarios.
+
+48.What is Test Script?
+In Software Testing, Test Script refers to a set of instructions or short program which tests some portion of the functionality of a software product. It is also known as an Automated Test Script because it tests an application automatically.
+
+49.What is a defect?
+Defect is deviation from the expected behavior to the actual behavior of the system is called defect. 
+
+59.What is the Difference Between Alpha Testing and Beta testing?
+Alpha Testing is done within the organization, while Beta Testing is done in the user's environment. During Alpha Testing only functionality and usability are tested, while during Beta Testing usability, functionality, security, and reliability are tested to the same depth.
+
+52.What is Risk Analysis?
+A software risk analysis looks at code violations that present a threat to the stability, security, or performance of the code. Software risk is measured during testing by using code analyzers that can assess the code for both risks within the code itself and between units that must interact inside the application.
+
+74.What is Bug Leakage?
+When a bug is found by the end users or customer, and missed by the QA team while testing the software. *For example:-*QA team tested the software for a . XX version release on their QA or staging
+
+What is a Latent defect?
+Latent defects is a popular term in the dictionary of software testing which are hidden undetected flaws in software which can’t be identified by any user until some special set of operation are performed.
+
+What is Mutation testing?
+Mutation Testing is a type of Software Testing that is performed to design new software tests and also evaluate the quality of already existing software tests. Mutation testing is related to modification a program in small ways. It focuses to help the tester develop effective tests or locate weaknesses in the test data used for the program.
+
+53.How we can eliminate risk?
+Understand what situations involving risk may be worth taking vs. those that aren't.Look outwards and inwards to study potential risks that could hurt the business. Have a proactive risk management plan in place.Keep Risk Where It Belongs.
+
+60.What is Visual Testing?
+Visual testing evaluates the visible output of an application and compares that output against the results expected by design.
+
+61.What is Decision Testing?
+Decision coverage or Branch coverage is a testing method, which aims to ensure that each one of the possible branch from each decision point is executed at least once and thereby ensuring that all reachable code is executed. That is, every decision is taken each way, true and false.
+
+62.What is Statement Testing? 
+A test strategy in which each statement of a program is executed at least once. It is equivalent to finding a path (or set of paths) through the control-flow graph that contains all the nodes of the graph.
+
+63.What is Branch Testing?
+Branch testing is a type of white-box testing that is used to test every possible branch in the control flow graph of a program. In branch testing, every branch in the code is executed at least once.
+
+64.What is Control Flow Testing?
+Control flow testing is a testing technique that comes under white box testing. The aim of this technique is to determine the execution order of statements or instructions of the program through a control structure. The control structure of a program is used to develop a test case for the program.
+
+65.What is Data Flow Testing?
+Data Flow Testing is a type of structural testing. It is a method that is used to find the test paths of a program according to the locations of definitions and uses of variables in the program. It has nothing to do In those cases State Transition Testing is a type of software testing which is performed to check the change in the state of the application under varying input.The condition of input passed is changed and the change in state is observed.
+
+68.What is Decision Table?
+A decision table is a scheduled rule logic entry, in table format, that consists of conditions, represented in the row and column headings, and actions, represented as the intersection points of the conditional cases in the table. 
+
+69.What is Boundary value?
+Boundary testing is the process of testing between extreme ends or boundaries between partitions of the input values
+
+70.What is Cause – Effect? 
+Cause Effect Graphing based technique is a technique in which a graph is used to represent the situations of combinations of input conditions. The graph is then converted to a decision table to obtain the test cases.
+
+71.What is the Advantage of Manual Testing?
+Uses human intelligence to find errors. ...
+Lets testers focus on complex features and functions. ...
+Tester knowledge of the project. ...
+Detects errors outside of the code. ...
+Provides accurate emulation of user experience. ...
+It helps maintain a testable system.
+
+72.What are the disadvantages of Manual testing?
+Manual Testing is time-consuming mainly while doing regression testing. Manual testing is less reliable compared to automation testing because it is conducted by humans. So there will always be prone to errors and mistakes. Expensive over automation testing in the long run.
+
+73.What is Code Redundancy?
+Code can be redundant for a variety of reasons ranging from unused variables to incomplete changes and abandoned development. Redundant code has a number of consequences including bloated source code, reduced reliable and reduced maintainability. In some cases dead code can also effect performance.
+
+3.What is JSON wire protocol?
+JSON wire protocol acts as a mediator between client libraries and Web Drivers. It sends transfers data between the client and the server on the web. The server doesn't understand the programming language in which the program is created, it just understands the protocol, and here comes the role of JSON wire Protocol.
+
+4.What is JSON?
+JSON stands for JavaScript Object Notation. JSON is a lightweight format for storing and transporting data. JSON is often used when data is sent from a server to a web page. JSON is "self-describing" and easy to understand.
