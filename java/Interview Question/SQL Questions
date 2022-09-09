@@ -11,14 +11,22 @@ It is true that SQL is a language, but it does not support programming as it is 
 Ans: Some common differences between SQL and PL/SQL are as shown below: 
  
 
-SQL	PL/SQL
-SQL is a query execution or commanding language	PL/SQL is a complete programming language
-SQL is a data-oriented language.	PL/SQL is a procedural language
-SQL is very declarative in nature.	PL/SQL has a procedural nature.
-It is used for manipulating data.	It is used for creating applications.
-We can execute one statement at a time in SQL	We can execute blocks of statements in PL/SQL
+SQL
+SQL is a query execution or commanding language     	
+SQL is a data-oriented language.
+SQL is very declarative in nature.
+It is used for manipulating data.	
+We can execute one statement at a time in SQL	
 SQL tells databases, what to do?	PL/SQL tells databases how to do.
 We can embed SQL in PL/SQL	We can not embed PL/SQL in SQL
+
+PL/SQL
+PL/SQL is a complete programming language.
+PL/SQL is a procedural language
+PL/SQL has a procedural nature.
+It is used for creating applications.
+We can execute blocks of statements in PL/SQL
+
 5. What is the difference between BETWEEN and IN operators in SQL? 
 BETWEEN 
 The BETWEEN operator is used to fetch rows based on a range of values. 
