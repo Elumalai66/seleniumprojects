@@ -19,13 +19,15 @@
      3.Customer Collaboration over contract negotiation.
      4.Rsponding to Change over following a plan.  
 
-4.What are the scrum ceremonies / meetings?
-    Scrum is one of the framework in agile.
-       1.Story Groooming 
-       2.Sprint Planning
-       3.Daily Standup
-       4.Sprint Review
-       5.Retrospective
+4.What are the scrum ceremonies / meetings? (we can meet the 100 customers quickly and efficently)
+    
+       1.Story Groooming : Story is explained by the product owner to the technical team (Dev,Qa,Business Analyst). 
+       2.Sprint Planning :Take the stories based on the resource avalibility.
+       3.Daily Standup or executaion phases :scrum meeting by scrum master.
+       4.Sprint Review : whatever development is develop they will show to the product owner .
+       5.Retrospective (meeting) Qa & Dev : wht went well on 2week sprint 
+                                            wht didn't went well.
+                                            how can we improve.
 
  5.What is the use of Retrospective meeting?
        *It is facilitated by scrum Master.
