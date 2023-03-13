@@ -1,0 +1,614 @@
+Question 1. What is HTML?
+HTML stands for Hyper Text Markup Language. It is a universal language which allows an individual using special code to create web pages to be viewed on internet.
+
+ 
+Question 2. What is a HTML tag?
+HTML tags tells the browser what to do. Tags are the keywords that defines the format of a web page. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.
+
+
+Some basic HTML tags are:
+
+<!DOCTYPE> : Defines the document type
+
+<html>: Defines an HTML document
+
+<head>: Contains metadata/information for the document
+
+<title>: Defines a title for the document
+
+<body>: Defines the document's body
+
+<h1> to <h6>: Defines HTML headings
+
+<p>: Defines a paragraph
+
+<br> : Inserts a single line break
+
+<hr> : Defines a thematic change in the content
+
+ 
+Question 3. Write format of a simple HTML page.
+
+<HTML>
+<HEAD>
+<TITLE> This is the Title </TITLE>
+</HEAD>
+<BODY>
+…. Type the body of the program
+</BODY>
+</HTML>
+
+ 
+Question 4. What is meta element in HTML?
+The meta element is used to provide additional information about a document. The meta tag has no content; rather, all of the information provided is specified with attributes.
+
+The two attributes that are used to provide information are name and content. The user makes up a name as the value of the name attribute and specifies information through the content attribute.
+
+One commonly chosen name is keywords; the value of the content attribute associated with the keywords are those which the author of a document believes characterizes his or her document.
+
+example:
+
+
+<meta name = "Title" content = "Programming the Web" />
+<meta name = "Author" content = "Divya K" />
+
+ 
+Question 5. What are HTML forms?
+An HTML form is used to allow a user to input data on a web page and the element used is form element and its main attributes are action and method.
+
+The most common way for a user to communicate information from a Web browser to the server is through a form. XHTML provides tags to generate the commonly used objects on a screen form. These objects are called controls or widgets. There are controls for single-line and multiple-line text collection, checkboxes, radio buttons, and menus, among others. All control tags are inline tags.
+
+ts format is <form action= http://www.example.abc = “get”> <form>
+
+Example:
+
+
+<form action="/action_page.php">
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="John"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Doe"><br><br>
+<input type="submit" value="Submit">
+</form>
+
+ 
+Question 6. What are some text formatting tags in HTML?
+1.<p> </p> - is used for introducing various paragraphs.
+
+2.<br> - this tag is used for giving an empty blank line.
+
+2.HEADING TAGS - <h1> </h1> .. <h6> </h6> is used to introduce various headings. <h1> is the biggest and <h6> is the smallest heading tag.
+
+3.<HR> TAG – is used to draw lines and horizontal rules.
+
+4.<B>,<I>,<U> for bold, italic and underline respectively.
+
+ 
+Question 7. What do you mean by row spanning and column spanning?
+Row spanning is used to merge (combine) two or more rows.
+
+Column spanning is used to merge (combine) two or more columns.
+
+ 
+Question 8. What is table tag? write syntax.
+A table is a two dimensional matrix, consisting of rows and columns. All table related tags are included between <TABLE> </TABLE> tags.
+
+A table is a matrix of cells. The cells in the top row often contain column labels, those in the leftmost column often contain row labels, and most of the rest of the cells contain the data of the table. The content of a cell can be almost any document element, including text, a heading, a horizontal rule, an image, and a nested table.
+
+Syntax:
+
+
+<TABLE>
+<TH> Heading </TH>
+<TR> Row elements </TR>
+<TD> Table data values </TD>
+</TABLE>
+
+
+ Question 9. How do you change the color of background or text in HTML?
+Include the element \"bgcolor\" with a color code in your body tag:
+
+<BODY BGCOLOR=\"#ffffff\" TEXT=\"#000000\" LINK=\"#cc0000\"VLINK=\"#000066\" ALINK=\"#ffff00\">
+
+ 
+Question 10. How do you make a new paragraph in HTML?
+Inserting the <P> tag at the beginning of your paragraph will drop the text down two lines.(If you insert the <BR> tag, it will drop your text down one line.)
+
+ 
+
+
+Question 11. How do you make text show as bold in HTML?
+
+Placing the <B>tag before the text will make everything bold, until you close the tag with</B>. Or using <STRONG>tags</STRONG > will do the same.
+
+ 
+Question 12. What do you mean by horizontal rules in HTML?
+>The parts of a document can be separated from each other, making the document easier to read, by placing horizontal lines between them. Such lines are called horizontal rules.
+
+>The block tag that creates them is <hr />. The <hr /> tag causes a line break (ending the current line) and places a line across the screen. Note again the slash in the <hr /> tag, indicating that this tag hasno content and no closing tag.
+
+
+<html>
+<head>
+<title> Horizontal Rule </title>
+</head>
+<body>
+<p>
+Hello world <hr/>
+123 <hr/>
+ABC <hr/>
+</p>
+</body>
+</html>
+
+ 
+Question 13. What are Style Sheets?
+Style sheets are collections of style information that are applied to plain text. Style information includes font attributes such as type size, special effects (bold,italic,underline),color and alignment. Style sheets also provide broader formatting instructions byspecifying values for quantities such as line spacing and left and right margins.
+
+ 
+Question 14. List down the ways of including style information in a document.
+1.Linked Styles -Style information is read from a separate file that is specified in the <LINK> tag
+
+2.Embedded Styles -Style information is defined in the document head using the <STYLE> and </STYLE> tags.
+
+3.Inline Styles -Style information is placed inside an HTML tag and applies to all content between that tag and it's companion closing tag.
+
+ 
+Question 15. Define cascading.
+Cascading refers to a certain set of rules that browsers use, in cascading order, to determine how to use the style information. Such a set of rules is useful in the event of conflicting style information because the rules would give the browser a way to determine which style is given precedence
+
+ 
+
+Intermediate HTML-CSS-JAVASCRIPT Interview Questions
+
+Question 16. What are the style precedence rules when using multiple approaches?
+Inline styles override both linked style sheets and style information stored in the document head with <STYLE> tag. Styles defined in the document head override linked style sheets.
+Linked style sheets override browser defaults
+
+ 
+Question 17. What is CSS?
+1. CSS are powerful mechanism for adding styles (e.g. Fonts, Colors, Spacing) to web documents.
+
+2. They enforce standards and uniformity throughout a web site and provide numerous attributes to create dynamic effects.
+
+3. The advantage of a style sheet includes the ability to make global changes to all documents from a single location. Style sheets are said to cascade when they combine to specify the appearance of a page.
+
+ 
+Question 18. Write syntax to introduce style sheets in HTML.
+
+
+<HTML>
+
+<HEAD>
+
+<STYLE Type = “text/css”>
+
+predefined tag name {attribute name1:attribute value1; attribute name2:attribute
+
+value2; ……attribute name-n:attribute value-n}
+
+<STYLE>
+
+</HEAD>
+
+<BODY>
+
+write the body of program
+
+</BODY> </HTML>
+
+ 
+Question 19. Define DOM.
+DOM (Document Object Model) is an API that defines how JavaScript programs can access and manipulate the HTML document currently displayed by a browser. It includes the definition of the properties of document object, many of which are themselves objects with their own properties.
+
+ 
+Question 20. List JavaScript data types.
+i. Number: The number data type is used to represent positive or negative numbers with or without decimal place, or numbers written using exponential notation.
+
+ii. String: The string data type is used to represent textual data . Strings are created using single or double quotes surrounding one or more characters, as shown below:
+
+iii. Boolean: The Boolean data type can hold only two values: true or false. It is typically used to store values like yes (true) or no (false), on (true) or off (false).
+
+iv. Null: This is another special data type that can have only one value-the null value. A null value means that there is no value. It is not equivalent to an empty string ("") or 0
+
+v. Object: The object is a complex data type that allows you to store collections of data.
+
+vi. Undefined: The undefined data type can only have one value-the special value undefined. If a variable has been declared, but has not been assigned a value, has the value undefined.
+
+ 
+Question 21. Explain the use of <img> tag.
+Image can be displayed on the web page using <img> tag.
+
+When the <img> tag is used, it should also be mentioned which image needs to be displayed. This is done using src attribute. Attribute means extra information given to the browser
+
+Whenever <img> tag is used, alt attribute is also used. Alt stands for alert.
+
+
+<html>
+<head>
+<title>display image</title>
+Module 1 : Introduction to HTML
+</head>
+<body>
+<img src="abc.png" alt="cannot display"/>
+</body>
+</html>
+ 
+Question 22. What is hypertext and href?
+Hyperlinks are the mechanism which allows the navigation from one page to another.
+
+> The term “hyper” means beyond and “link” means connection
+
+>Whichever text helps in navigation is called hypertext
+
+> Hyperlinks cam be created using <a> (anchor tag)
+
+>The attribute that should be used for <a> is href
+
+Example:
+
+<html>
+<head>
+<title> hyperlink </title>
+</head>
+<a href = "link.html"> CLICK HERE
+</a>
+</html>
+ 
+Question 23. Why do you use <blockquote>? give example.
+The <blockquote> tag is used to make the contents look different from the surrounding text.
+
+
+<html>
+<head>
+<title> Blockquotes </title>
+</head>
+<body>
+<p> HELLO THERE </p>
+<blockquote>
+<p> ROOTWORKZ </p>
+</blockquote>
+</body>
+</html>
+ 
+Question 24. What is ordered list?.
+Ordered lists are lists in which the order of items is important. This orderedness of a list is shown in the display of the list by the implicit attachment of a sequential value to the beginning of each item.
+
+The default sequential values are Arabic numerals, beginning with 1. An ordered list is created within the block tag <ol>.
+
+The items are specified and displayed just as are those in unordered lists, except that the items in an
+
+ordered list are preceded by sequential values instead of bullets.
+
+
+<html>
+<head>
+<title> ordered List </title>
+</head>
+<body>
+<h3> Cessna 210 Engine Starting Instructions </h3>
+<ol>
+<li> Set mixture to rich </li>
+<li> Set propeller to high RPM </li>
+<li> Set ignition switch to "BOTH" </li>
+<li> Set auxiliary fuel pump switch to "LOW PRIME" </li>
+<li> When fuel pressure reaches 2 to 2.5 PSI, push starter button </li>
+</ol>
+</body>
+</html>
+ 
+Question 25. What is cellspacing and cellpadding. Write script using cellspacing and cellpadding.
+Cellspacing is the distance between cells of a table.
+
+Cellpadding is the distance between the edges of the cell to its content.
+
+
+Script:
+
+<html>
+<head>
+<title> cell spacing and cell padding </title>
+</head>
+<body>
+<h3>Table with space = 10, pad = 50</h3>
+<table border = "7" cellspacing = "10" cellpadding = "50">
+<tr>
+<td> Kswamy</td>
+<td>Chethan </td>
+</tr>
+</table>
+<h3>Table with space = 50, pad = 10</h3>
+<table border = "7" cellspacing = "50" cellpadding = "10">
+<tr>
+<td> Divya </td>
+<td>Chethan </td>
+</tr>
+</table>
+</body>
+</html>
+
+ 
+Advanced HTML-CSS-JAVASCRIPT Interview Questions
+
+Question 26. Write a complete HTML form script using checkbox, actions buttons(SUBMIT, RESET), <textarea> tag and radio button.
+
+<html>
+<head>
+<title> CompleteForm</title>
+</head> <body>
+<h1>Registration Form</h1>
+<form action=" ">
+<p> <label>Enter your email id:
+<input type = "text" name = "myname" size = "24" maxlength = "25" />
+</label> </p>
+<p> <label>Enter the password:
+<input type = "password" name = "mypass" size = "20" maxlength = "20" />
+</label> </p>
+<p>
+<label><input type="radio" name="act" value="one"/>Male</label>
+<label><input type="radio" name="act" value="two"/>Female</label>
+</p>
+<p>Which of the following Accounts do you have?</p>
+<p>
+<label><input type="checkbox" name="act" value="one"/>Gmail</label>
+<label><input type="checkbox" name="act" value="two"/>Facebook</label>
+<label><input type="checkbox" name="act" value="three"/>Twitter</label>
+<label><input type="checkbox" name="act" value="four"/>Google+</label>
+</p>
+<p> Any Suggestions?</p>
+<p> <textarea name="feedback" rows="5" cols="100"> </textarea> </p>
+<p>Click on Submit if you want to register</p>
+<p> <input type="SUBMIT" value="SUBMIT"/>
+<input type="RESET" value="RESET"/>
+</p>
+</form>
+</body>
+<html>
+
+
+ 
+Question 27. Explain frames and <frame> tag.
+FRAMES
+
+The browser window can be used to display more than one document at a time. The window can be divided into rectangular areas, each of which is a frame. Each frame is capable of displaying its own document.
+
+<frameset> tag:
+
+>The number of frames and their layout in the browser window are specified with the <frameset> tag.
+
+>A frameset element takes the place of the body element in a document. A document has either a body or a frameset but cannot have both.
+
+>The <frameset> tag must have either a rows or a cols attribute. (or both)
+
+> To create horizontal frames, rows attribute is used.
+
+>To create vertical frames, cols attribute is used.
+
+
+Example of horizontal frame:
+
+<html>
+<head>
+<title>Frameset Rows</title>
+</head>
+<frameset rows = "*,*">
+<frame src = "Framerow1.html"/>
+<frame src = ""Framerow2.html"/>
+</frameset>
+</html>
+
+ 
+Question 28. How will you put background image using CSS? write script.
+The background-image property is used to place an image in the background of an element.
+
+
+<html>
+<head>
+<title>Background Image</title>
+<style type = "text/css">
+body {background-image:url(bk.jpg);}
+p {text-align: justify; color:white;font-size:25pt;}
+</style>
+</head>
+<body>
+<p class = "two">HEllO WORLD</p>
+</body>
+</html>
+
+ 
+Question 29. What is JavaScript ? Why do we use it?
+JavaScript is an interpreted, client-side, event-based, objectoriented scripting language that you can use to add dynamic interactivity to your web pages.
+
+We use it to:
+
+>Create special effects with images that give the impression that a button is either highlighted or depressed whenever the mouse pointer is hovered over it.
+
+>Validate information that users enter into your web forms
+
+>Open pages in new windows, and customise the appearance of those new windows.
+
+>Detect the capabilities of the user’s browser and alter your page’s content appropriately.
+
+> And much more..
+
+
+
+<script> tag is used to add JavaScript in HTML
+<script language=”JavaScript”
+type=”text/JavaScript”>
+… code …
+</script>
+
+ 
+
+
+Question 30. What is the use of typeof operator in JavaScript?
+
+typeof is an operator that provides information about the data type of a value stored in a variable and also its use is to test that a variable has been defined before attempting to use it.
+
+It is a unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.
+
+The typeof operator evaluates to "number", "string" or "boolean" if its operand is a number, string, or boolean value and returns true or false based on the evaluation.
+
+ 
+Question 31. Explain JavaScript array.
+An array is a special type of JavaScript object that can store multiple data values unlike a variable, which can only store one data value at a time.
+
+In order to use an array in JavaScript, you must first create it. There are a number of ways to create arrays in JavaScript.
+
+>arrDays = new Array();
+
+If you already know how many elements a given array will have, you can declare this explicitly:
+
+>arrDays = new Array(7);
+
+>arrDays = new Array(“Monday”,”Tuesday”);
+
+>arrDays = [“Monday”,”Tuesday”];
+
+ 
+Question 32. Write a JavaScript function that prompts the user to input a number, and then gives them 5 chances to guess the square of the number.
+
+<script language="JavaScript">
+var theNumber = prompt("pick a number","");
+var num = parseInt(theNumber);
+var theSquare;
+var theirNumber;
+var guess;
+theSquare= num * num;
+for (var i=1; i <= 5; i++)
+{
+theirNumber= prompt("what is " + num + " squared","0");
+guess= parseInt(theirNumber);
+if (guess == theSquare)
+{
+alert("Correct");
+break;
+} else
+{
+alert("Attempt " + i + " is wrong");
+}
+
+}
+</script>
+
+ 
+Question 33. Write a JavaScript function that takes 3 parameters, price, tax rate, balance, and prints yes in an alert box if someone has adequate balance to purchase an item at the specified price with the given tax rate. Otherwise, print out no in an alert box.
+
+<script language="JavaScript">
+function affortIt(price, taxrate, balance)
+{
+var total = price + price *taxrate;
+if (total <= balance)
+{
+alert("yes");
+} else
+{
+alert("no");
+}
+}
+</script>
+
+ 
+Question 34. What is === operator?
+=== is called as strict equality operator which returns true when the two operands are having the same value without any type conversion.
+
+
+Strict equality === checks that two values are the same or not.
+
+Value are not implicitly converted to some other value before comparison.
+
+If the variable values are of different types, then the values are considered as unequal.
+
+If the variable are of the same type, are not numeric, and have the same value, they are considered as equal.
+
+ 
+Question 35. Write a function that generates a complete web page containing a list with 50 items.The items should be item1 through item50
+
+<script>
+function genList()
+{
+document.open();
+document.write("<html><head></head><body>");
+document.write("<ul>");
+for (var i=1; i <= 50; i++)
+{
+document.write("<li> item" + i + "</li>");
+}
+document.write("</ul></body></html>");
+document.close();
+}
+</script>
+
+ 
+Question 36. What is anonymous function in JavaScript?
+A function that is declared without any named identifier is known as an anonymous function. In general, an anonymous function is inaccessible after its declaration
+
+Declaration:
+
+
+var anon = function() {
+alert('I am anonymous');
+};
+anon();
+
+ 
+Question 37. Explain all three types of errors in JavaScript.
+Logic errors: It is caused by the use of syntactically correct code, which does not fulfill the required task. For example, an infinite loop.
+
+Load-time errors: The errors shown at the time of the page loading are counted under Load-time errors. These errors are encountered by the use of improper syntax, and thus are detected while the page is getting loaded
+
+Run-time errors: This is the error that comes up while the program is running. It is caused by illegal operations, for example, division of a number by zero, or trying to access a non-existent area of the memory.
+
+ 
+Question 38. Write a function that keeps prompting the user for input until the letter "p" is typed by the user.
+
+function Test()
+{
+var letterP = prompt("Please enter the letter p"," ");
+while (letterP!=="p")
+{
+letterP = prompt("No dummy! Enter the letter p","");
+}
+alert("Thank you!")
+}
+ 
+Question 39. Write a JavaScript function that takes 4 variables, a, b, c, d, and prints true in an alert box if input a > input b and input c > input d. Else, print false in an alert box.
+
+<script language="JavaScript">
+function question9(a,b,c,d)
+{
+if (a>b&&c>d) {
+alert("true")
+}
+else {
+alert("false")
+}
+}
+</script>
+
+ 
+
+Question 40. Write a HTML script that contains JavaScript function that prompts the user for a color and uses what they typed to set the background color of the web page.
+
+<html>
+<head><title>Changing Background Color</title>
+<script language="JavaScript">
+function changeBgColor(){
+var bodycolor = document.form1.body.value;
+document.getElementById("bdy").style.backgroundColor = bodycolor;
+}
+</script>
+</head>
+<body ID="bdy">
+<p>
+Pick a background color for this page.
+</p>
+<form name="form1">
+<b> Color </b>
+<input type="text" name="body"><br>
+<input type="button" value="Change color" onclick="changeBgColor()">
+<br>
+</form>
+</body>
+</html>
